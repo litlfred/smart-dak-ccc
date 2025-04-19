@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.022.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Allow edits to fields on screen before information is committed"
+* title = "Create neonate/infant/child record"
 * status = $pubStatus#active
-* name = "Allow edits to fields on screen before information is committed"
+* name = "Create neonate/infant/child record"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Allow edits to fields on screen before information is committed"
 * extension[userstory].extension[benefit].valueString = "I can ensure information has been checked before submission"
 * description = """
 *Business process* (A) Registration:
+Activity: Create neonate/infant/child record:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Allow edits to fields on screen before information is committed
 

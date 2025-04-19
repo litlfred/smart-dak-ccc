@@ -1,0 +1,21 @@
+Instance: LM.CHE.FXREQ.022.E
+InstanceOf: FunctionalRequirement
+Description: """*Business process* (E) Follow-up:
+Activity: Self/caregiver care in the home or community:
+As a <a href="ActorDefinition-neonateinfantchildcaregiver.html">Neonate/infant/child (caregiver)</a>, I want to:
+>Provide a way to share sources for access accurate health information 
+
+so that
+
+>I can manage my client's health in my daily life"""
+Usage: #definition
+* id = "LM.CHE.FXREQ.022.E"
+* activity = "Self/caregiver care in the home or community"
+* actor[+] = Reference(neonateinfantchildcaregiver)
+* capabilityString = "Provide a way to share sources for access accurate health information "
+* benefitString = "I can manage my client's health in my daily life"
+* classification[+] = FXREQBusinessProcesses#E
+* classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
+* classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7
+* classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.4
+

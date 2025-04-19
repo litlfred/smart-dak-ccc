@@ -7,10 +7,10 @@ Usage: #definition
 * name = "Support multiple languages – English, French, Spanish, Chinese, Russian, Arabic"
 * publisher = "WHO"
 * experimental = true
-* extension[classification].valueCoding[+] = FXREQCategories#Systemrequirementsusability
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.1
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.2
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.4
+* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsusability
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: System requirements – usability
 Support multiple languages – English, French, Spanish, Chinese, Russian, Arabic

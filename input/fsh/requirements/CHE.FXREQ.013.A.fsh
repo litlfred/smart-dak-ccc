@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.013.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Provide sufficient data to rule out that this client is already in the system"
+* title = "Search for neonate/infant/child record"
 * status = $pubStatus#active
-* name = "Provide sufficient data to rule out that this client is already in the system"
+* name = "Search for neonate/infant/child record"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Provide sufficient data to rule out that this client is already in the system"
 * extension[userstory].extension[benefit].valueString = "I can avoid duplicates "
 * description = """
 *Business process* (A) Registration:
+Activity: Search for neonate/infant/child record:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Provide sufficient data to rule out that this client is already in the system
 

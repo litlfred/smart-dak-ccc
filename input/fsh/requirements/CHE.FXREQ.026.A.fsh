@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.026.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Identify in the client's record if this is a follow-up appointment or an initial visit"
+* title = "Check in neonate/infant/child"
 * status = $pubStatus#active
-* name = "Identify in the client's record if this is a follow-up appointment or an initial visit"
+* name = "Check in neonate/infant/child"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Identify in the client's record if this is a follow-up appointment or an initial visit"
 * extension[userstory].extension[benefit].valueString = "I can identify which process to follow and view the client's previous problems that required a follow-up"
 * description = """
 *Business process* (A) Registration:
+Activity: Check in neonate/infant/child:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Identify in the client's record if this is a follow-up appointment or an initial visit
 

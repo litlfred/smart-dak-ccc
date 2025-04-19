@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.030.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Provide a list or roster of all infant/child clients due to arrive"
+* title = "Check in neonate/infant/child"
 * status = $pubStatus#active
-* name = "Provide a list or roster of all infant/child clients due to arrive"
+* name = "Check in neonate/infant/child"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Provide a list or roster of all infant/child clients due to arrive"
 * extension[userstory].extension[benefit].valueString = "I know which clients to follow up or are due for services"
 * description = """
 *Business process* (A) Registration:
+Activity: Check in neonate/infant/child:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Provide a list or roster of all infant/child clients due to arrive
 

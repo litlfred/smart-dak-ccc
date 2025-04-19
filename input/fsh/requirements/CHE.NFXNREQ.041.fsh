@@ -7,10 +7,10 @@ Usage: #definition
 * name = "Allow for offline and online functionality"
 * publisher = "WHO"
 * experimental = true
-* extension[classification].valueCoding[+] = FXREQCategories#Systemrequirementsgeneral
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.1
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.2
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.4
+* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsgeneral
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: System requirements – general
 Allow for offline and online functionality

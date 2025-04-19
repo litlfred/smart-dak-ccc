@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.025.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Record a time/date-stamped new contact (encounter)"
+* title = "Check in neonate/infant/child"
 * status = $pubStatus#active
-* name = "Record a time/date-stamped new contact (encounter)"
+* name = "Check in neonate/infant/child"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Record a time/date-stamped new contact (encounter)"
 * extension[userstory].extension[benefit].valueString = "I can confirm when the client came"
 * description = """
 *Business process* (A) Registration:
+Activity: Check in neonate/infant/child:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Record a time/date-stamped new contact (encounter)
 

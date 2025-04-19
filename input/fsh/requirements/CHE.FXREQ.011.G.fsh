@@ -2,21 +2,22 @@
 Instance: CHE.FXREQ.011.G
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices"
+* title = "General solution requirements – Sync"
 * status = $pubStatus#active
-* name = "The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices"
+* name = "General solution requirements – Sync"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(allusers)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#G
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.2
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.3
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.8
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.10
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#G
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices"
 * extension[userstory].extension[benefit].valueString = "To ensure that clients are able to access their personal records and keep a copy on their phones using the Health Level 7 IPS format."
 * description = """
 *Business process* (G) Triage and Emergency Assessment:
+Activity: General solution requirements – Sync:
 As a <a href="ActorDefinition-allusers.html">All Users</a>, I want to:
 >The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices
 

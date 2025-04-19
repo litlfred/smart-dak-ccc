@@ -7,10 +7,10 @@ Usage: #definition
 * name = "Allow user with permission to create a new user and temporary password"
 * publisher = "WHO"
 * experimental = true
-* extension[classification].valueCoding[+] = FXREQCategories#Securityusermanagement
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.1
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.2
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#4.4
+* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: Security – user management
 Allow user with permission to create a new user and temporary password

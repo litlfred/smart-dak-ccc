@@ -2,18 +2,19 @@
 Instance: CHE.FXREQ.010.A
 InstanceOf: SGRequirements
 Usage: #definition
-* title = "Display sufficient data to identify the client"
+* title = "Search for neonate/infant/child record"
 * status = $pubStatus#active
-* name = "Display sufficient data to identify the client"
+* name = "Search for neonate/infant/child record"
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification].valueCoding[+] = FXREQBusinessProcesses#A
-* extension[classification].valueCoding[+] = http://smart.who.int/base/CodeSystem/DHIv1#2.1
+* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
+* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Display sufficient data to identify the client"
 * extension[userstory].extension[benefit].valueString = "I can confirm that it is the correct client"
 * description = """
 *Business process* (A) Registration:
+Activity: Search for neonate/infant/child record:
 As a <a href="ActorDefinition-healthworkerorclerk.html">Health worker or clerk</a>, I want to:
 >Display sufficient data to identify the client
 
