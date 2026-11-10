@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Allow for a temporary identification in emergency situations when full identity is unknown"
 * extension[userstory].extension[benefit].valueString = "I can proceed with registration "
 * description = """

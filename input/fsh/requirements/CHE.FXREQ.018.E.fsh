@@ -8,10 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(communityhealthworker)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#E
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.7
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.4
 * extension[userstory].extension[capability].valueString = "Refer to Business Process A: Registration"
 * extension[userstory].extension[benefit].valueString = "I can identify the correct client details and health records"
 * description = """

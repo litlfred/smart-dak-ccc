@@ -7,10 +7,6 @@ Usage: #definition
 * name = "Provide a mechanism to securely change a user's password"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityauthentication
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: Security – authentication
 Provide a mechanism to securely change a user's password

@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.011.E"
 * activity = "Contact follow-up facility"
 * actor[+] = Reference(facilityhealthworker)
-* capabilityString = "Indicate (based on the protocol) the preferred days for follow-up contact"
-* benefitString = "The client receives services according to recommended contact schedule"
+* capabilityMarkdown = "Indicate (based on the protocol) the preferred days for follow-up contact"
+* benefitMarkdown = "The client receives services according to recommended contact schedule"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

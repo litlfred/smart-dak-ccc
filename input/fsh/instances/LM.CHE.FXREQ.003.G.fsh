@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.003.G"
 * activity = "General solution requirements – Modular approach"
 * actor[+] = Reference(allusers)
-* capabilityString = "Manage clinical algorithm guidance changes through a change management process with quality assurance (using a reference system) and be able to push the information out to all solutions in use "
-* benefitString = "I can ensure that all guidance being followed in the field is using the latest approved guidance from WHO"
+* capabilityMarkdown = "Manage clinical algorithm guidance changes through a change management process with quality assurance (using a reference system) and be able to push the information out to all solutions in use "
+* benefitMarkdown = "I can ensure that all guidance being followed in the field is using the latest approved guidance from WHO"
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

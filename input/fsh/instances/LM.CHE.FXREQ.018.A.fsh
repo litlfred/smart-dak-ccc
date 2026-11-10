@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.018.A"
 * activity = "Update neonate/infant/child details"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Allow edits to fields on screen before information is committed"
-* benefitString = "I can ensure information has been checked before submission"
+* capabilityMarkdown = "Allow edits to fields on screen before information is committed"
+* benefitMarkdown = "I can ensure information has been checked before submission"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

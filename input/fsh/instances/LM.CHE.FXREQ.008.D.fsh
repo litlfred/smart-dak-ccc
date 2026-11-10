@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.008.D"
 * activity = "Facility accommodates referral"
 * actor[+] = Reference(automatedsystemnotification)
-* capabilityString = "Notify/send a reminder to the client's caregiver for the referral appointment "
-* benefitString = "So that the caregiver does not forget the appointment to receive the required health services"
+* capabilityMarkdown = "Notify/send a reminder to the client's caregiver for the referral appointment "
+* benefitMarkdown = "So that the caregiver does not forget the appointment to receive the required health services"
 * classification[+] = FXREQBusinessProcesses#D
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.6

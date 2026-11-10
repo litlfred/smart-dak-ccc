@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.016.B"
 * activity = "Check symptoms and conduct physical exam"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Provide real-time range checks and data integrity checks on data"
-* benefitString = "I can ensure the entry of accurate information and reduce errors"
+* capabilityMarkdown = "Provide real-time range checks and data integrity checks on data"
+* benefitMarkdown = "I can ensure the entry of accurate information and reduce errors"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

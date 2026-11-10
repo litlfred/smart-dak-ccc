@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.026.A"
 * activity = "Check in neonate/infant/child"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Identify in the client's record if this is a follow-up appointment or an initial visit"
-* benefitString = "I can identify which process to follow and view the client's previous problems that required a follow-up"
+* capabilityMarkdown = "Identify in the client's record if this is a follow-up appointment or an initial visit"
+* benefitMarkdown = "I can identify which process to follow and view the client's previous problems that required a follow-up"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

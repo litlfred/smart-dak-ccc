@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.008.C"
 * activity = "Counselling, in-facility management and treatment"
 * actor[+] = Reference(healthworkerandneonateinfantchildcaregiver)
-* capabilityString = "Provide a source to access accurate health information "
-* benefitString = "I can manage my client's health in my daily life"
+* capabilityMarkdown = "Provide a source to access accurate health information "
+* benefitMarkdown = "I can manage my client's health in my daily life"
 * classification[+] = FXREQBusinessProcesses#C
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

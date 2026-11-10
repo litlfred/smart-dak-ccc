@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.001.G"
 * activity = "General solution requirements – Data dictionary"
 * actor[+] = Reference(allusers)
-* capabilityString = "Solution must be able to leverage the data dictionary (to be produced as part of workstream 2/3 work) "
-* benefitString = "The tool is consistent"
+* capabilityMarkdown = "Solution must be able to leverage the data dictionary (to be produced as part of workstream 2/3 work) "
+* benefitMarkdown = "The tool is consistent"
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Be able to gather unique identifier number/information pertaining to the client that includes personal information "
 * extension[userstory].extension[benefit].valueString = "I can identify the client using personal information within personal information management regulations/laws"
 * description = """

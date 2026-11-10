@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Be able to input biometric information only (e.g. age, sex, respiration, weight, birthweight, height)"
 * extension[userstory].extension[benefit].valueString = "I can proceed without using personal information but still maintain medical information via a unique identifier number (also useful in emergency scenarios)"
 * description = """

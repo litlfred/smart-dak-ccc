@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(allusers)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#G
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "Be able to track treatments via reference numbers so that these can be updated as required and can be used to create \"treatment modules\" pertinent to a country or emergency setting"
 * extension[userstory].extension[benefit].valueString = "Countries can implement the correct treatment module for their regulations and emergency setting"
 * description = """

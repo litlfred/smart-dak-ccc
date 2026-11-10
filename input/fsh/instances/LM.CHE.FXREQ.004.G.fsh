@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.004.G"
 * activity = "General solution requirements – Modular approach"
 * actor[+] = Reference(allusers)
-* capabilityString = "Be able to track treatments via reference numbers so that these can be updated as required and can be used to create \"treatment modules\" pertinent to a country or emergency setting"
-* benefitString = "Countries can implement the correct treatment module for their regulations and emergency setting"
+* capabilityMarkdown = "Be able to track treatments via reference numbers so that these can be updated as required and can be used to create \"treatment modules\" pertinent to a country or emergency setting"
+* benefitMarkdown = "Countries can implement the correct treatment module for their regulations and emergency setting"
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

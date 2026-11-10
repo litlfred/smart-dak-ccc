@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworker)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#B
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "To be able to choose the option of a consultation that leads me through the full process to assess and classify the sick child and further to treat the child, referral and follow-up"
 * extension[userstory].extension[benefit].valueString = "I can ensure that a complete consultation is provided"
 * description = """

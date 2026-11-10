@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.008.A"
 * activity = "Gather neonate/infant/child details"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Be able to gather unique identifier number/information pertaining to the client that includes personal information "
-* benefitString = "I can identify the client using personal information within personal information management regulations/laws"
+* capabilityMarkdown = "Be able to gather unique identifier number/information pertaining to the client that includes personal information "
+* benefitMarkdown = "I can identify the client using personal information within personal information management regulations/laws"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

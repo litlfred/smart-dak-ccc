@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Bypass the standard flow at any point if an urgent case is identified – Refer to Business Process G. Triage and assessment"
 * extension[userstory].extension[benefit].valueString = "The child/infant can receive immediate attention – Refer to Business Process G. Triage and assessment"
 * description = """

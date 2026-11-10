@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworker)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#B
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "Provide real-time range checks and data integrity checks on data"
 * extension[userstory].extension[benefit].valueString = "I can ensure the entry of accurate information and reduce errors"
 * description = """

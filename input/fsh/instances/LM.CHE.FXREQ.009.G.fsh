@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.009.G"
 * activity = "General solution requirements – Sync"
 * actor[+] = Reference(allusers)
-* capabilityString = "The solution to store data in an FHIR-compliant server"
-* benefitString = "Consistency of data representation and ability to exchange data with other services and solutions using FHIR standards and common value sets (International Statistical Classification of Diseases and Related Health Problems, Logical Observation Identifiers, Names and Codes)"
+* capabilityMarkdown = "The solution to store data in an FHIR-compliant server"
+* benefitMarkdown = "Consistency of data representation and ability to exchange data with other services and solutions using FHIR standards and common value sets (International Statistical Classification of Diseases and Related Health Problems, Logical Observation Identifiers, Names and Codes)"
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

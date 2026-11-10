@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.028.B"
 * activity = "Perform tests (laboratory)"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Provide a list of tests that the health worker can order"
-* benefitString = "I can provide appropriate services according to the latest clinical protocols"
+* capabilityMarkdown = "Provide a list of tests that the health worker can order"
+* benefitMarkdown = "I can provide appropriate services according to the latest clinical protocols"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

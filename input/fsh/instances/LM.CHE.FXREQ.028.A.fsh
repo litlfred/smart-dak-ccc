@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.028.A"
 * activity = "Check in neonate/infant/child"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Identify the date of the last attended contact"
-* benefitString = "I can ensure client is receiving services according to the recommended contact schedule"
+* capabilityMarkdown = "Identify the date of the last attended contact"
+* benefitMarkdown = "I can ensure client is receiving services according to the recommended contact schedule"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.018.E"
 * activity = "Visit sick neonate/infant/child"
 * actor[+] = Reference(communityhealthworker)
-* capabilityString = "Refer to Business Process A: Registration"
-* benefitString = "I can identify the correct client details and health records"
+* capabilityMarkdown = "Refer to Business Process A: Registration"
+* benefitMarkdown = "I can identify the correct client details and health records"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

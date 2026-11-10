@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.006.B"
 * activity = "Ask the caregiver what the neonate/infant/child's problems are"
 * actor[+] = Reference(healthworker)
-* capabilityString = "To be able to route the consultation via different health workers and save the information already entered to the consultation, even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add/edit information as it becomes available. "
-* benefitString = "I do not have to start a new consultation for every health worker that the client is involved with"
+* capabilityMarkdown = "To be able to route the consultation via different health workers and save the information already entered to the consultation, even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add/edit information as it becomes available. "
+* benefitMarkdown = "I do not have to start a new consultation for every health worker that the client is involved with"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

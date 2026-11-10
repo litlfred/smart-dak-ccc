@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworker)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#B
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "Indicate that the patient has arrived for the initial visit, scheduled contact or specific complaint (tasks will vary based on health worker roles)"
 * extension[userstory].extension[benefit].valueString = "I can know what services to provide"
 * description = """

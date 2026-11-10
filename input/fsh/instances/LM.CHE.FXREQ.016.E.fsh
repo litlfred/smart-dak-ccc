@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.016.E"
 * activity = "Plan for routine, targeted community support"
 * actor[+] = Reference(communityhealthworker)
-* capabilityString = "Provide a list of scheduled contacts and to allow for defaulters to be traced"
-* benefitString = "I can track and follow up clients requiring services"
+* capabilityMarkdown = "Provide a list of scheduled contacts and to allow for defaulters to be traced"
+* benefitMarkdown = "I can track and follow up clients requiring services"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

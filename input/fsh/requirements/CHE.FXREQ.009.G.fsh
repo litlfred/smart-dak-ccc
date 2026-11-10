@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(allusers)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#G
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "The solution to store data in an FHIR-compliant server"
 * extension[userstory].extension[benefit].valueString = "Consistency of data representation and ability to exchange data with other services and solutions using FHIR standards and common value sets (International Statistical Classification of Diseases and Related Health Problems, Logical Observation Identifiers, Names and Codes)"
 * description = """

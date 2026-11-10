@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.009.A"
 * activity = "Search for neonate/infant/child record"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Search if the client is already in system (using at least two identifiers) (including information pertaining to the client's caregiver)"
-* benefitString = "I can check if this is a new or existing client"
+* capabilityMarkdown = "Search if the client is already in system (using at least two identifiers) (including information pertaining to the client's caregiver)"
+* benefitMarkdown = "I can check if this is a new or existing client"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

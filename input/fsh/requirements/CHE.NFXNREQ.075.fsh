@@ -7,10 +7,6 @@ Usage: #definition
 * name = "Provision of design, build, technical system and architecture, and testing documentation for future support and further configuration of the solution for other health intervention initiatives"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Documentation
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: Documentation
 Provision of design, build, technical system and architecture, and testing documentation for future support and further configuration of the solution for other health intervention initiatives

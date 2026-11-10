@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(facilitystafffacilitystaffinchargedistricthealthofficerstaff)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#F
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#3.7
 * extension[userstory].extension[capability].valueString = "Produce a range of prepared and ad hoc reports and analyses "
 * extension[userstory].extension[benefit].valueString = "I am able to use data collected at the facility, including data for service delivery (beyond reporting purposes alone)"
 * description = """

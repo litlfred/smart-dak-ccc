@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.004.D"
 * activity = "Identify and discuss referral location options"
 * actor[+] = Reference(healthworkerandneonateinfantchildcaregiver)
-* capabilityString = "Be able to find out where a treatment method may be available nearby "
-* benefitString = "I can refer my client to another facility to receive the appropriate services"
+* capabilityMarkdown = "Be able to find out where a treatment method may be available nearby "
+* benefitMarkdown = "I can refer my client to another facility to receive the appropriate services"
 * classification[+] = FXREQBusinessProcesses#D
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.6
