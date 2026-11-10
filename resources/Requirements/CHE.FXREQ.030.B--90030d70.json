@@ -1,0 +1,81 @@
+{
+  "resourceType" : "Basic",
+  "id" : "CHE.FXREQ.030.B",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGRequirements"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Requirements CHE.FXREQ.030.B</b></p><a name=\"CHE.FXREQ.030.B\"> </a><a name=\"hcCHE.FXREQ.030.B\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-base/StructureDefinition-SGRequirements.html\">SMART Guidelines Requirements</a></p></div><p>These requirements apply to the actor <a href=\"ActorDefinition-healthworker.html\">Health worker</a></p><table class=\"grid\"/></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "http://smart.who.int/base/StructureDefinition/SGString",
+      "valueString" : "To be able to agree/disagree with the diagnosis presented from the guidance and be able to select an alternative diagnosis stating the reasoning regarding the decision"
+    },
+    {
+      "url" : "http://smart.who.int/base/StructureDefinition/SGString",
+      "valueString" : "If a diagnosis is deemed incorrect that I can correct it with suitable reasoning to ensure that the correct treatment recommendations are provided"
+    }],
+    "url" : "http://smart.who.int/base/StructureDefinition/SGUserStory"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url",
+    "valueUri" : "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.030.B"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version",
+    "valueString" : "1.0.0"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name",
+    "valueString" : "Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title",
+    "valueString" : "Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status",
+    "valueCode" : "active"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.experimental",
+    "valueBoolean" : true
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date",
+    "valueDateTime" : "2026-11-10T19:26:41+00:00"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher",
+    "valueString" : "WHO"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact",
+    "valueContactDetail" : {
+      "name" : "WHO",
+      "telecom" : [{
+        "system" : "url",
+        "value" : "http://who.int"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description",
+    "valueMarkdown" : "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Diagnosis:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to agree/disagree with the diagnosis presented from the guidance and be able to select an alternative diagnosis stating the reasoning regarding the decision\n\nso that\n\n>If a diagnosis is deemed incorrect that I can correct it with suitable reasoning to ensure that the correct treatment recommendations are provided"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor",
+    "valueCanonical" : "http://smart.who.int/dak-ccc/ActorDefinition/healthworker"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "Requirements"
+    }]
+  }
+}

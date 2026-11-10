@@ -1,0 +1,1842 @@
+{
+  "$schema" : "ig-ast-dependencies/v1",
+  "authority" : "cache",
+  "edges" : 204,
+  "resolvedInIg" : 2,
+  "dependencies" : [{
+    "source" : "ActorDefinition/allusers",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/automatedsystemnotification",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/communityhealthworker",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/facilityhealthworker",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/facilitystafffacilitystaffinchargedistricthealthofficerstaff",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/healthworker",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/healthworkerandneonateinfantchildcaregiver",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/healthworkerorclerk",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/neonateinfantchildcaregiver",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.001.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.001.F",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.001.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.002.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.002.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.002.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.002.F",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.002.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.003.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.003.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.003.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.003.F",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.003.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.004.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.004.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.004.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.004.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.004.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.005.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.006.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.006.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.006.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.006.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.006.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.007.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.007.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.007.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.007.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.007.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.008.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.008.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.008.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.008.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.008.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.009.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.009.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.009.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.009.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.009.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.010.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.010.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.010.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.010.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.010.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.011.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.012.G",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.013.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.013.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.013.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.013.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.014.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.014.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.014.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.014.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.015.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.015.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.015.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.015.D",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.015.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.016.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.016.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.016.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.016.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.017.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.017.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.017.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.017.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.018.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.018.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.018.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.018.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.019.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.019.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.019.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.020.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.020.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.020.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.021.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.021.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.021.C",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.021.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.022.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.022.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.022.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.023.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.023.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.023.E",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.024.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.024.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.025.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.025.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.026.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.026.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.027.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.027.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.028.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.028.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.029.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.029.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.030.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.030.B",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.FXREQ.031.A",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.001",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.002",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.003",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.004",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.005",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.006",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.007",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.008",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.009",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.010",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.011",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.012",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.013",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.014",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.015",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.016",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.017",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.018",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.019",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.020",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.021",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.022",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.023",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.024",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.025",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.026",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.027",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.028",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.029",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.030",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.031",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.032",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.033",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.034",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.035",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.036",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.037",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.038",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.039",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.040",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.041",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.042",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.043",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.044",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.045",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.046",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.047",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.048",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.049",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.050",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.051",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.052",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.053",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.054",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.055",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.056",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.057",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.058",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.059",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.060",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.061",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.062",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.063",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.064",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.065",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.066",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.067",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.068",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.069",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.070",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.071",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.072",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.073",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.074",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/CHE.NFXNREQ.075",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/dak-ccc/ImplementationGuide/smart.who.int.dak-ccc|1.0.0",
+    "kind" : "meta.profile",
+    "target" : "SMARTImplementationGuide",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ImplementationGuide.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/dak-ccc/ValueSet/FXREQBusinessProcesses|1.0.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/dak-ccc/CodeSystem/FXREQBusinessProcesses",
+    "targetVersion" : "1.0.0",
+    "resolved" : "http://smart.who.int/dak-ccc/CodeSystem/FXREQBusinessProcesses|1.0.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/dak-ccc/ValueSet/FXREQCategories|1.0.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/dak-ccc/CodeSystem/FXREQCategories",
+    "targetVersion" : "1.0.0",
+    "resolved" : "http://smart.who.int/dak-ccc/CodeSystem/FXREQCategories|1.0.0",
+    "path" : null,
+    "origin" : "publisher"
+  }]
+}

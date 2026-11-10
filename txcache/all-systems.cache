@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+json"
+}, "url": "urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+json",
+  "code" : "application/fhir+json",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Analysing urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1 for validation purposes\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n1ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Validate \"[undefined#application/fhir+json (\"undefined\")]\" and infer system\n1ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Check \"undefined#application/fhir+json\"\n1ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n2ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n2ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: check code in (urn:ietf:bcp:13) at \n2ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Code \"application/fhir+json\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+json"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+json",
+  "code" : "application/fhir+json",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#application/fhir+json (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#application/fhir+json\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"application/fhir+json\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
