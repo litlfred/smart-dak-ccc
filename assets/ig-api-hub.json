@@ -11,7 +11,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQBusinessProcesses.displays.json",
       "schema:additionalType": "Displays",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQBusinessProcesses.displays.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQBusinessProcesses.displays.json",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQBusinessProcesses.html",
         "schema:identifier": "ValueSet/FXREQBusinessProcesses"
@@ -21,7 +21,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQBusinessProcesses.jsonld",
       "schema:additionalType": "JSON-LD",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQBusinessProcesses.jsonld",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQBusinessProcesses.jsonld",
       "schema:url": "artifact/ValueSet-FXREQBusinessProcesses.jsonld.html",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQBusinessProcesses.html",
@@ -32,7 +32,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQBusinessProcesses.openapi.json",
       "schema:additionalType": "OpenAPI",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQBusinessProcesses.openapi.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQBusinessProcesses.openapi.json",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQBusinessProcesses.html",
         "schema:identifier": "ValueSet/FXREQBusinessProcesses"
@@ -42,7 +42,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQBusinessProcesses.schema.json",
       "schema:additionalType": "JSON Schema",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQBusinessProcesses.schema.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQBusinessProcesses.schema.json",
       "schema:url": "artifact/ValueSet-FXREQBusinessProcesses.schema.json.html",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQBusinessProcesses.html",
@@ -53,7 +53,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQCategories.displays.json",
       "schema:additionalType": "Displays",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQCategories.displays.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQCategories.displays.json",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQCategories.html",
         "schema:identifier": "ValueSet/FXREQCategories"
@@ -63,7 +63,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQCategories.jsonld",
       "schema:additionalType": "JSON-LD",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQCategories.jsonld",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQCategories.jsonld",
       "schema:url": "artifact/ValueSet-FXREQCategories.jsonld.html",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQCategories.html",
@@ -74,7 +74,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQCategories.openapi.json",
       "schema:additionalType": "OpenAPI",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQCategories.openapi.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQCategories.openapi.json",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQCategories.html",
         "schema:identifier": "ValueSet/FXREQCategories"
@@ -84,7 +84,7 @@
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSet-FXREQCategories.schema.json",
       "schema:additionalType": "JSON Schema",
-      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-FXREQCategories.schema.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/sidecars/ValueSet-FXREQCategories.schema.json",
       "schema:url": "artifact/ValueSet-FXREQCategories.schema.json.html",
       "schema:about": {
         "@id": "artifact/ValueSet-FXREQCategories.html",
@@ -96,7 +96,7 @@
     {
       "@type": "schema:DigitalDocument",
       "schema:name": "ValueSets.schema.json",
-      "schema:contentUrl": "ValueSets.schema.json"
+      "schema:contentUrl": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/ig-api/site/ValueSets.schema.json"
     }
   ]
 }

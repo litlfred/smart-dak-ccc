@@ -3620,6 +3620,7 @@
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-ccc",
       "dcterms:title": "SMART DAK CCC",
+      "schema:name": "DakCcc",
       "dcterms:description": "CCC DAK",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ImplementationGuide/smart.who.int.dak-ccc"
