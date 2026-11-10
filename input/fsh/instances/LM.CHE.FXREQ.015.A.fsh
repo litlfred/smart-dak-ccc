@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.015.A"
 * activity = "Review socio-demographic data with infant/child carer"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Edit data that provide socio-demographic information about the client"
-* benefitString = "I can use the data to for analysis, forecasting and planning"
+* capabilityMarkdown = "Edit data that provide socio-demographic information about the client"
+* benefitMarkdown = "I can use the data to for analysis, forecasting and planning"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

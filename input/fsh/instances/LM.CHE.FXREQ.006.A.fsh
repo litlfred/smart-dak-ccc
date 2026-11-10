@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.006.A"
 * activity = "Gather neonate/infant/child details"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Be able to gather the client's caregiver basic information (if required)"
-* benefitString = "I can track and follow the name of the client's caregiver for the purposes of engagement during the consultation"
+* capabilityMarkdown = "Be able to gather the client's caregiver basic information (if required)"
+* benefitMarkdown = "I can track and follow the name of the client's caregiver for the purposes of engagement during the consultation"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.001.E"
 * activity = "Identify and discuss follow-up location options"
 * actor[+] = Reference(facilityhealthworker)
-* capabilityString = "Provide a list of follow-up location options and contact details"
-* benefitString = "I can choose the best options for the client and schedule a follow-up"
+* capabilityMarkdown = "Provide a list of follow-up location options and contact details"
+* benefitMarkdown = "I can choose the best options for the client and schedule a follow-up"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

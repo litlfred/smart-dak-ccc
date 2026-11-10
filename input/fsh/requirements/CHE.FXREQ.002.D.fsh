@@ -8,9 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworker)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#D
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.6
 * extension[userstory].extension[capability].valueString = "Provide a list of emergency referral locations and contact details if local emergency number (e.g. 911/999) is not used"
 * extension[userstory].extension[benefit].valueString = "I can arrange emergency services"
 * description = """

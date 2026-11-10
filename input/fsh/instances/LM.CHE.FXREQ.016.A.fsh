@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.016.A"
 * activity = "Update neonate/infant/child details"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Be able to edit the identification information (including information pertaining to the client's caregiver)"
-* benefitString = "I can update existing client information "
+* capabilityMarkdown = "Be able to edit the identification information (including information pertaining to the client's caregiver)"
+* benefitMarkdown = "I can update existing client information "
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

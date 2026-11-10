@@ -7,10 +7,6 @@ Usage: #definition
 * name = "Enable use via a Web interface and mobile applications for use on various technology devices such as computers, laptops, tablets and mobiles"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementshardwareandconnectivity
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: System requirements – hardware and connectivity
 Enable use via a Web interface and mobile applications for use on various technology devices such as computers, laptops, tablets and mobiles

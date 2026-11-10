@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.023.E"
 * activity = "Self/caregiver care in the home or community"
 * actor[+] = Reference(neonateinfantchildcaregiver)
-* capabilityString = "Provide a way for the client's caregiver to receive information messages in a way that ensures patient confidentiality"
-* benefitString = "I can manage my client's health in my daily life"
+* capabilityMarkdown = "Provide a way for the client's caregiver to receive information messages in a way that ensures patient confidentiality"
+* benefitMarkdown = "I can manage my client's health in my daily life"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

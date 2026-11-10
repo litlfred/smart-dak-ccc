@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.015.B"
 * activity = "Check symptoms and conduct physical exam"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Provide a standardized form for the entry of clinical data"
-* benefitString = "I can ensure the client's health information is recorded and up to date"
+* capabilityMarkdown = "Provide a standardized form for the entry of clinical data"
+* benefitMarkdown = "I can ensure the client's health information is recorded and up to date"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

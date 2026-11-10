@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.002.F"
 * activity = "Aggregate reporting and data use"
 * actor[+] = Reference(facilitystafffacilitystaffinchargedistricthealthofficerstaff)
-* capabilityString = "Be able to view data on my own performance and service delivery  "
-* benefitString = "I can understand trends and challenges and track my own performance over time "
+* capabilityMarkdown = "Be able to view data on my own performance and service delivery  "
+* benefitMarkdown = "I can understand trends and challenges and track my own performance over time "
 * classification[+] = FXREQBusinessProcesses#F
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#3.7
 

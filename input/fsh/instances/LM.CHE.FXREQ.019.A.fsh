@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.019.A"
 * activity = "Update neonate/infant/child details"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Allow for a temporary identification in emergency situations when full identity is unknown"
-* benefitString = "I can proceed with registration "
+* capabilityMarkdown = "Allow for a temporary identification in emergency situations when full identity is unknown"
+* benefitMarkdown = "I can proceed with registration "
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

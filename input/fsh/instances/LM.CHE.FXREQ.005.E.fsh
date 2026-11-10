@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.005.E"
 * activity = "Arrange appointment for follow-up"
 * actor[+] = Reference(facilityhealthworker)
-* capabilityString = "Display the number of existing contacts per day (to allow for balancing)"
-* benefitString = "I can manage and follow up on clients requiring services"
+* capabilityMarkdown = "Display the number of existing contacts per day (to allow for balancing)"
+* benefitMarkdown = "I can manage and follow up on clients requiring services"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7

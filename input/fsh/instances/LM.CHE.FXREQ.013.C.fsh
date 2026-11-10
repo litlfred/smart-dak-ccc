@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.013.C"
 * activity = "Counselling, in-facility or community management and treatment"
 * actor[+] = Reference(healthworkerandneonateinfantchildcaregiver)
-* capabilityString = "Suggest appropriate treatments/investigations based on findings"
-* benefitString = "I can provide appropriate services according to the latest clinical protocols"
+* capabilityMarkdown = "Suggest appropriate treatments/investigations based on findings"
+* benefitMarkdown = "I can provide appropriate services according to the latest clinical protocols"
 * classification[+] = FXREQBusinessProcesses#C
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

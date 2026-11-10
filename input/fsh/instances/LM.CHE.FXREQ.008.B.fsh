@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.008.B"
 * activity = "Ask the caregiver what the neonate/infant/child's problems are"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Determine whether to manage client at the facility or refer"
-* benefitString = "I can ensure the client receives appropriate services as quickly as possible"
+* capabilityMarkdown = "Determine whether to manage client at the facility or refer"
+* benefitMarkdown = "I can ensure the client receives appropriate services as quickly as possible"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

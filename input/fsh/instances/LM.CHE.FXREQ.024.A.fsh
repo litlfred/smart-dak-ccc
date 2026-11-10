@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.024.A"
 * activity = "Create neonate/infant/child record"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Be able to input biometric information only (e.g. age, sex, respiration, weight, birthweight, height)"
-* benefitString = "I can proceed without using personal information but still maintain medical information via a unique identifier number (also useful in emergency scenarios)"
+* capabilityMarkdown = "Be able to input biometric information only (e.g. age, sex, respiration, weight, birthweight, height)"
+* benefitMarkdown = "I can proceed without using personal information but still maintain medical information via a unique identifier number (also useful in emergency scenarios)"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

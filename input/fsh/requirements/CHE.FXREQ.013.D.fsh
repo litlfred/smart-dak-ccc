@@ -8,9 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerandneonateinfantchildcaregiver)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#D
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.6
 * extension[userstory].extension[capability].valueString = "Provide a way for the client's caregiver to receive information messages in a way that ensures patient confidentiality"
 * extension[userstory].extension[benefit].valueString = "I can manage my client's health in my daily life"
 * description = """

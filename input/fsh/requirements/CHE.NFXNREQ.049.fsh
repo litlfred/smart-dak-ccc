@@ -7,10 +7,6 @@ Usage: #definition
 * name = "Be able to accommodate more than [x number of] concurrent users"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsscalability
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: System requirements – scalability
 Be able to accommodate more than [x number of] concurrent users

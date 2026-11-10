@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.013.B"
 * activity = "Determine the age of the neonate/infant/child"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Indicate if the age of the child is not known and be able to provide information as to how an age determination has been agreed"
-* benefitString = "I can provide appropriate services according to the latest clinical protocols"
+* capabilityMarkdown = "Indicate if the age of the child is not known and be able to provide information as to how an age determination has been agreed"
+* benefitMarkdown = "I can provide appropriate services according to the latest clinical protocols"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

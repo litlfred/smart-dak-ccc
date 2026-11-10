@@ -8,8 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerorclerk)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 * extension[userstory].extension[capability].valueString = "Require a user to search if a client is already in the system before starting a new medical record entry"
 * extension[userstory].extension[benefit].valueString = "I can confirm that it is the correct client and update information as necessary"
 * description = """

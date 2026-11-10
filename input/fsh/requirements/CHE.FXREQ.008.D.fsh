@@ -8,9 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(automatedsystemnotification)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#D
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.6
 * extension[userstory].extension[capability].valueString = "Notify/send a reminder to the client's caregiver for the referral appointment "
 * extension[userstory].extension[benefit].valueString = "So that the caregiver does not forget the appointment to receive the required health services"
 * description = """

@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.011.B"
 * activity = "Determine if this is an initial visit or a follow-up visit"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Indicate that the patient has arrived for the initial visit, scheduled contact or specific complaint (tasks will vary based on health worker roles)"
-* benefitString = "I can know what services to provide"
+* capabilityMarkdown = "Indicate that the patient has arrived for the initial visit, scheduled contact or specific complaint (tasks will vary based on health worker roles)"
+* benefitMarkdown = "I can know what services to provide"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

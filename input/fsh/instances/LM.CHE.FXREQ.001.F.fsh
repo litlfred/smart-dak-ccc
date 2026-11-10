@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.001.F"
 * activity = "Aggregate reporting and data use"
 * actor[+] = Reference(facilitystafffacilitystaffinchargedistricthealthofficerstaff)
-* capabilityString = "Produce a range of prepared and ad hoc reports and analyses "
-* benefitString = "I am able to use data collected at the facility, including data for service delivery (beyond reporting purposes alone)"
+* capabilityMarkdown = "Produce a range of prepared and ad hoc reports and analyses "
+* benefitMarkdown = "I am able to use data collected at the facility, including data for service delivery (beyond reporting purposes alone)"
 * classification[+] = FXREQBusinessProcesses#F
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#3.7
 

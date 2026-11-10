@@ -8,11 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(allusers)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#G
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.3
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.8
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#2.10
 * extension[userstory].extension[capability].valueString = "Provide a modular approach to the solution to accommodate variations required to make the solution country-specific, for example: 
 - ability to use/not to use personal identifiers for registration 
 - include a focus on symptoms/diagnosis that may appear in a country-susceptible manner (malaria, HIV)

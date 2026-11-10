@@ -7,10 +7,6 @@ Usage: #definition
 * name = "Support real-time data entry validation and feedback to prevent data entry errors from being recorded"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsusability
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.1
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.2
-* extension[classification][+].valueCoding = http://smart.who.int/base/CodeSystem/CDHIv1#4.4
 * description = """
 *Category*: System requirements – usability
 Support real-time data entry validation and feedback to prevent data entry errors from being recorded

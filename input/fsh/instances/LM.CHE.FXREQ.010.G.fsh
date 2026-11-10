@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.010.G"
 * activity = "General solution requirements – Sync"
 * actor[+] = Reference(allusers)
-* capabilityString = "The solution to sync data in an FHIR-compliant server"
-* benefitString = "Ensure that data are stored and synced with a server, so that patient information relevant to another user of Child Health in Emergencies Digital Platform can access information for client history and to maintain continuity in care delivery "
+* capabilityMarkdown = "The solution to sync data in an FHIR-compliant server"
+* benefitMarkdown = "Ensure that data are stored and synced with a server, so that patient information relevant to another user of Child Health in Emergencies Digital Platform can access information for client history and to maintain continuity in care delivery "
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

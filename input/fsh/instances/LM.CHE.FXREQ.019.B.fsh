@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.019.B"
 * activity = "Check symptoms and conduct physical exam"
 * actor[+] = Reference(healthworker)
-* capabilityString = "Highlight abnormal values"
-* benefitString = "I can identify critical health issues or errors (if a data entry issue)"
+* capabilityMarkdown = "Highlight abnormal values"
+* benefitMarkdown = "I can identify critical health issues or errors (if a data entry issue)"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

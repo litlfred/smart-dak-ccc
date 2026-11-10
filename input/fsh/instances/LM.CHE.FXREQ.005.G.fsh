@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.005.G"
 * activity = "General solution requirements – Modular approach"
 * actor[+] = Reference(allusers)
-* capabilityString = "Be able to differentiate between simple and complex care provision requirements"
-* benefitString = "I can provide the correct level of detail for the user type (e.g. doctor/specialist vs nurse health workers)"
+* capabilityMarkdown = "Be able to differentiate between simple and complex care provision requirements"
+* benefitMarkdown = "I can provide the correct level of detail for the user type (e.g. doctor/specialist vs nurse health workers)"
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

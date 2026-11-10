@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.017.B"
 * activity = "Check symptoms and conduct physical exam"
 * actor[+] = Reference(healthworker)
-* capabilityString = "To be able to follow a consultation that focuses initially on the symptoms highlighted by the caregiver but that continues a full assessment of all possible symptoms "
-* benefitString = "I can provide a complete consultation and identify if there is more than one diagnosis and treatment recommendation"
+* capabilityMarkdown = "To be able to follow a consultation that focuses initially on the symptoms highlighted by the caregiver but that continues a full assessment of all possible symptoms "
+* benefitMarkdown = "I can provide a complete consultation and identify if there is more than one diagnosis and treatment recommendation"
 * classification[+] = FXREQBusinessProcesses#B
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

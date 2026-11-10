@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.011.G"
 * activity = "General solution requirements – Sync"
 * actor[+] = Reference(allusers)
-* capabilityString = "The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices"
-* benefitString = "To ensure that clients are able to access their personal records and keep a copy on their phones using the Health Level 7 IPS format."
+* capabilityMarkdown = "The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices"
+* benefitMarkdown = "To ensure that clients are able to access their personal records and keep a copy on their phones using the Health Level 7 IPS format."
 * classification[+] = FXREQBusinessProcesses#G
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.2
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.3

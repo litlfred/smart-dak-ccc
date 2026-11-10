@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.011.A"
 * activity = "Search for neonate/infant/child record"
 * actor[+] = Reference(healthworkerorclerk)
-* capabilityString = "Require a user to search if a client is already in the system before starting a new medical record entry"
-* benefitString = "I can confirm that it is the correct client and update information as necessary"
+* capabilityMarkdown = "Require a user to search if a client is already in the system before starting a new medical record entry"
+* benefitMarkdown = "I can confirm that it is the correct client and update information as necessary"
 * classification[+] = FXREQBusinessProcesses#A
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.1
 

@@ -12,8 +12,8 @@ Usage: #definition
 * id = "LM.CHE.FXREQ.012.E"
 * activity = "Contact follow-up facility"
 * actor[+] = Reference(facilityhealthworker)
-* capabilityString = "Record identification and tracking information (such as mobile phone number) "
-* benefitString = "I can follow up and remind the client on when to return for services"
+* capabilityMarkdown = "Record identification and tracking information (such as mobile phone number) "
+* benefitMarkdown = "I can follow up and remind the client on when to return for services"
 * classification[+] = FXREQBusinessProcesses#E
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#1.1
 * classification[+] = http://smart.who.int/base/CodeSystem/CDHIv1#2.7
