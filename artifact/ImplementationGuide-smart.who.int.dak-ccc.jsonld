@@ -21,10 +21,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/resources/ImplementationGuide/smart.who.int.dak-ccc.json"
+        "@id": "../ImplementationGuide-smart.who.int.dak-ccc.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/resources/ImplementationGuide/smart.who.int.dak-ccc.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {

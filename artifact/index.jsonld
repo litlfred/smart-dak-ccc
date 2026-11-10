@@ -25,6 +25,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/allusers"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-allusers.json"
       }
     },
     {
@@ -36,6 +39,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/automatedsystemnotification"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-automatedsystemnotification.json"
       }
     },
     {
@@ -47,6 +53,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/communityhealthworker"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-communityhealthworker.json"
       }
     },
     {
@@ -58,6 +67,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/facilityhealthworker"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-facilityhealthworker.json"
       }
     },
     {
@@ -69,6 +81,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/facilitystafffacilitystaffinchargedistricthealthofficerstaff"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.json"
       }
     },
     {
@@ -80,6 +95,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworker"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-healthworker.json"
       }
     },
     {
@@ -91,6 +109,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworkerandneonateinfantchildcaregiver"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-healthworkerandneonateinfantchildcaregiver.json"
       }
     },
     {
@@ -102,6 +123,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworkerorclerk"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-healthworkerorclerk.json"
       }
     },
     {
@@ -113,6 +137,9 @@
       "dcterms:type": "Requirements: Actor Definitions",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ActorDefinition/neonateinfantchildcaregiver"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-neonateinfantchildcaregiver.json"
       }
     },
     {
@@ -120,1344 +147,1920 @@
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.E",
       "dcterms:title": "LM.CHE.FXREQ.001.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.001.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.001.F.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.F",
       "dcterms:title": "LM.CHE.FXREQ.001.F",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.001.F.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.001.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.G",
       "dcterms:title": "LM.CHE.FXREQ.001.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.001.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.002.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.C",
       "dcterms:title": "LM.CHE.FXREQ.002.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.002.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.002.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.D",
       "dcterms:title": "LM.CHE.FXREQ.002.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.002.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.002.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.E",
       "dcterms:title": "LM.CHE.FXREQ.002.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.002.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.002.F.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.F",
       "dcterms:title": "LM.CHE.FXREQ.002.F",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.002.F.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.002.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.G",
       "dcterms:title": "LM.CHE.FXREQ.002.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.002.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.003.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.C",
       "dcterms:title": "LM.CHE.FXREQ.003.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.003.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.003.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.D",
       "dcterms:title": "LM.CHE.FXREQ.003.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.003.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.003.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.E",
       "dcterms:title": "LM.CHE.FXREQ.003.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.003.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.003.F.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.F",
       "dcterms:title": "LM.CHE.FXREQ.003.F",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.003.F.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.003.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.G",
       "dcterms:title": "LM.CHE.FXREQ.003.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.003.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.004.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.B",
       "dcterms:title": "LM.CHE.FXREQ.004.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.004.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.004.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.C",
       "dcterms:title": "LM.CHE.FXREQ.004.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.004.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.004.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.D",
       "dcterms:title": "LM.CHE.FXREQ.004.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.004.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.004.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.E",
       "dcterms:title": "LM.CHE.FXREQ.004.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.004.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.004.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.G",
       "dcterms:title": "LM.CHE.FXREQ.004.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.004.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.A",
       "dcterms:title": "LM.CHE.FXREQ.005.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.B",
       "dcterms:title": "LM.CHE.FXREQ.005.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.C",
       "dcterms:title": "LM.CHE.FXREQ.005.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.D",
       "dcterms:title": "LM.CHE.FXREQ.005.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.E",
       "dcterms:title": "LM.CHE.FXREQ.005.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.005.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.G",
       "dcterms:title": "LM.CHE.FXREQ.005.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.005.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.006.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.A",
       "dcterms:title": "LM.CHE.FXREQ.006.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.006.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.006.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.B",
       "dcterms:title": "LM.CHE.FXREQ.006.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.006.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.006.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.C",
       "dcterms:title": "LM.CHE.FXREQ.006.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.006.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.006.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.E",
       "dcterms:title": "LM.CHE.FXREQ.006.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.006.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.006.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.G",
       "dcterms:title": "LM.CHE.FXREQ.006.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.006.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.007.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.A",
       "dcterms:title": "LM.CHE.FXREQ.007.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.007.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.007.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.B",
       "dcterms:title": "LM.CHE.FXREQ.007.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.007.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.007.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.C",
       "dcterms:title": "LM.CHE.FXREQ.007.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.007.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.007.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.D",
       "dcterms:title": "LM.CHE.FXREQ.007.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.007.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.007.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.G",
       "dcterms:title": "LM.CHE.FXREQ.007.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.007.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.008.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.A",
       "dcterms:title": "LM.CHE.FXREQ.008.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.008.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.008.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.B",
       "dcterms:title": "LM.CHE.FXREQ.008.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.008.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.008.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.C",
       "dcterms:title": "LM.CHE.FXREQ.008.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.008.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.008.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.D",
       "dcterms:title": "LM.CHE.FXREQ.008.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.008.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.008.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.G",
       "dcterms:title": "LM.CHE.FXREQ.008.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.008.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.009.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.A",
       "dcterms:title": "LM.CHE.FXREQ.009.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.009.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.009.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.B",
       "dcterms:title": "LM.CHE.FXREQ.009.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.009.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.009.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.C",
       "dcterms:title": "LM.CHE.FXREQ.009.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.009.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.009.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.D",
       "dcterms:title": "LM.CHE.FXREQ.009.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.009.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.009.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.G",
       "dcterms:title": "LM.CHE.FXREQ.009.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.009.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.010.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.A",
       "dcterms:title": "LM.CHE.FXREQ.010.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.010.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.010.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.C",
       "dcterms:title": "LM.CHE.FXREQ.010.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.010.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.010.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.D",
       "dcterms:title": "LM.CHE.FXREQ.010.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.010.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.010.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.E",
       "dcterms:title": "LM.CHE.FXREQ.010.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.010.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.010.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.G",
       "dcterms:title": "LM.CHE.FXREQ.010.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.010.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.A",
       "dcterms:title": "LM.CHE.FXREQ.011.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.B",
       "dcterms:title": "LM.CHE.FXREQ.011.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.C",
       "dcterms:title": "LM.CHE.FXREQ.011.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.D",
       "dcterms:title": "LM.CHE.FXREQ.011.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.E",
       "dcterms:title": "LM.CHE.FXREQ.011.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.011.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.G",
       "dcterms:title": "LM.CHE.FXREQ.011.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.011.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.A",
       "dcterms:title": "LM.CHE.FXREQ.012.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.B",
       "dcterms:title": "LM.CHE.FXREQ.012.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.C",
       "dcterms:title": "LM.CHE.FXREQ.012.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.D",
       "dcterms:title": "LM.CHE.FXREQ.012.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.E",
       "dcterms:title": "LM.CHE.FXREQ.012.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.012.G.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.G",
       "dcterms:title": "LM.CHE.FXREQ.012.G",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.012.G.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.013.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.A",
       "dcterms:title": "LM.CHE.FXREQ.013.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.013.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.013.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.B",
       "dcterms:title": "LM.CHE.FXREQ.013.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.013.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.013.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.C",
       "dcterms:title": "LM.CHE.FXREQ.013.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.013.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.013.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.D",
       "dcterms:title": "LM.CHE.FXREQ.013.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.013.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.014.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.A",
       "dcterms:title": "LM.CHE.FXREQ.014.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.014.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.014.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.B",
       "dcterms:title": "LM.CHE.FXREQ.014.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.014.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.014.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.C",
       "dcterms:title": "LM.CHE.FXREQ.014.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.014.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.014.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.E",
       "dcterms:title": "LM.CHE.FXREQ.014.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.014.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.015.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.A",
       "dcterms:title": "LM.CHE.FXREQ.015.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.015.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.015.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.B",
       "dcterms:title": "LM.CHE.FXREQ.015.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.015.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.015.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.C",
       "dcterms:title": "LM.CHE.FXREQ.015.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.015.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.015.D.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.D",
       "dcterms:title": "LM.CHE.FXREQ.015.D",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.015.D.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.015.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.E",
       "dcterms:title": "LM.CHE.FXREQ.015.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.015.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.016.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.A",
       "dcterms:title": "LM.CHE.FXREQ.016.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.016.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.016.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.B",
       "dcterms:title": "LM.CHE.FXREQ.016.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.016.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.016.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.C",
       "dcterms:title": "LM.CHE.FXREQ.016.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.016.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.016.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.E",
       "dcterms:title": "LM.CHE.FXREQ.016.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.016.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.017.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.A",
       "dcterms:title": "LM.CHE.FXREQ.017.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.017.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.017.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.B",
       "dcterms:title": "LM.CHE.FXREQ.017.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.017.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.017.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.C",
       "dcterms:title": "LM.CHE.FXREQ.017.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.017.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.017.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.E",
       "dcterms:title": "LM.CHE.FXREQ.017.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.017.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.018.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.A",
       "dcterms:title": "LM.CHE.FXREQ.018.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.018.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.018.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.B",
       "dcterms:title": "LM.CHE.FXREQ.018.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.018.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.018.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.C",
       "dcterms:title": "LM.CHE.FXREQ.018.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.018.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.018.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.E",
       "dcterms:title": "LM.CHE.FXREQ.018.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.018.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.019.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.A",
       "dcterms:title": "LM.CHE.FXREQ.019.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.019.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.019.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.B",
       "dcterms:title": "LM.CHE.FXREQ.019.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.019.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.019.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.C",
       "dcterms:title": "LM.CHE.FXREQ.019.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.019.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.020.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.A",
       "dcterms:title": "LM.CHE.FXREQ.020.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.020.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.020.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.B",
       "dcterms:title": "LM.CHE.FXREQ.020.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.020.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.020.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.C",
       "dcterms:title": "LM.CHE.FXREQ.020.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.020.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.021.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.A",
       "dcterms:title": "LM.CHE.FXREQ.021.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.021.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.021.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.B",
       "dcterms:title": "LM.CHE.FXREQ.021.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.021.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.021.C.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.C",
       "dcterms:title": "LM.CHE.FXREQ.021.C",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.021.C.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.021.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.E",
       "dcterms:title": "LM.CHE.FXREQ.021.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.021.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.022.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.A",
       "dcterms:title": "LM.CHE.FXREQ.022.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.022.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.022.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.B",
       "dcterms:title": "LM.CHE.FXREQ.022.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.022.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.022.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.E",
       "dcterms:title": "LM.CHE.FXREQ.022.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.022.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.023.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.A",
       "dcterms:title": "LM.CHE.FXREQ.023.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.023.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.023.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.B",
       "dcterms:title": "LM.CHE.FXREQ.023.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.023.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.023.E.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.E",
       "dcterms:title": "LM.CHE.FXREQ.023.E",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.023.E.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.024.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.024.A",
       "dcterms:title": "LM.CHE.FXREQ.024.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.024.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.024.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.024.B",
       "dcterms:title": "LM.CHE.FXREQ.024.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.024.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.025.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.025.A",
       "dcterms:title": "LM.CHE.FXREQ.025.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.025.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.025.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.025.B",
       "dcterms:title": "LM.CHE.FXREQ.025.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.025.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.026.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.026.A",
       "dcterms:title": "LM.CHE.FXREQ.026.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.026.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.026.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.026.B",
       "dcterms:title": "LM.CHE.FXREQ.026.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.026.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.027.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.027.A",
       "dcterms:title": "LM.CHE.FXREQ.027.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.027.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.027.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.027.B",
       "dcterms:title": "LM.CHE.FXREQ.027.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.027.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.028.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.028.A",
       "dcterms:title": "LM.CHE.FXREQ.028.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.028.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.028.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.028.B",
       "dcterms:title": "LM.CHE.FXREQ.028.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.028.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.029.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.029.A",
       "dcterms:title": "LM.CHE.FXREQ.029.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.029.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.029.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.029.B",
       "dcterms:title": "LM.CHE.FXREQ.029.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.029.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.030.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.030.A",
       "dcterms:title": "LM.CHE.FXREQ.030.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.030.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.030.B.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.030.B",
       "dcterms:title": "LM.CHE.FXREQ.030.B",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.030.B.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.FXREQ.031.A.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.FXREQ.031.A",
       "dcterms:title": "LM.CHE.FXREQ.031.A",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.FXREQ.031.A.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.001.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.001",
       "dcterms:title": "LM.CHE.NFXNREQ.001",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.001.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.002.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.002",
       "dcterms:title": "LM.CHE.NFXNREQ.002",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.002.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.003.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.003",
       "dcterms:title": "LM.CHE.NFXNREQ.003",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.003.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.004.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.004",
       "dcterms:title": "LM.CHE.NFXNREQ.004",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.004.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.005.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.005",
       "dcterms:title": "LM.CHE.NFXNREQ.005",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.005.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.006.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.006",
       "dcterms:title": "LM.CHE.NFXNREQ.006",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.006.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.007.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.007",
       "dcterms:title": "LM.CHE.NFXNREQ.007",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.007.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.008.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.008",
       "dcterms:title": "LM.CHE.NFXNREQ.008",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.008.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.009.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.009",
       "dcterms:title": "LM.CHE.NFXNREQ.009",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.009.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.010.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.010",
       "dcterms:title": "LM.CHE.NFXNREQ.010",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.010.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.011.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.011",
       "dcterms:title": "LM.CHE.NFXNREQ.011",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.011.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.012.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.012",
       "dcterms:title": "LM.CHE.NFXNREQ.012",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.012.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.013.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.013",
       "dcterms:title": "LM.CHE.NFXNREQ.013",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.013.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.014.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.014",
       "dcterms:title": "LM.CHE.NFXNREQ.014",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.014.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.015.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.015",
       "dcterms:title": "LM.CHE.NFXNREQ.015",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.015.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.016.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.016",
       "dcterms:title": "LM.CHE.NFXNREQ.016",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.016.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.017.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.017",
       "dcterms:title": "LM.CHE.NFXNREQ.017",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.017.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.018.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.018",
       "dcterms:title": "LM.CHE.NFXNREQ.018",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.018.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.019.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.019",
       "dcterms:title": "LM.CHE.NFXNREQ.019",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.019.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.020.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.020",
       "dcterms:title": "LM.CHE.NFXNREQ.020",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.020.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.021.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.021",
       "dcterms:title": "LM.CHE.NFXNREQ.021",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.021.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.022.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.022",
       "dcterms:title": "LM.CHE.NFXNREQ.022",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.022.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.023.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.023",
       "dcterms:title": "LM.CHE.NFXNREQ.023",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.023.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.024.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.024",
       "dcterms:title": "LM.CHE.NFXNREQ.024",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.024.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.025.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.025",
       "dcterms:title": "LM.CHE.NFXNREQ.025",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.025.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.026.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.026",
       "dcterms:title": "LM.CHE.NFXNREQ.026",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.026.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.027.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.027",
       "dcterms:title": "LM.CHE.NFXNREQ.027",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.027.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.028.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.028",
       "dcterms:title": "LM.CHE.NFXNREQ.028",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.028.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.029.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.029",
       "dcterms:title": "LM.CHE.NFXNREQ.029",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.029.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.030.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.030",
       "dcterms:title": "LM.CHE.NFXNREQ.030",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.030.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.031.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.031",
       "dcterms:title": "LM.CHE.NFXNREQ.031",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.031.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.032.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.032",
       "dcterms:title": "LM.CHE.NFXNREQ.032",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.032.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.033.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.033",
       "dcterms:title": "LM.CHE.NFXNREQ.033",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.033.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.034.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.034",
       "dcterms:title": "LM.CHE.NFXNREQ.034",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.034.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.035.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.035",
       "dcterms:title": "LM.CHE.NFXNREQ.035",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.035.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.036.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.036",
       "dcterms:title": "LM.CHE.NFXNREQ.036",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.036.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.037.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.037",
       "dcterms:title": "LM.CHE.NFXNREQ.037",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.037.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.038.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.038",
       "dcterms:title": "LM.CHE.NFXNREQ.038",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.038.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.039.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.039",
       "dcterms:title": "LM.CHE.NFXNREQ.039",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.039.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.040.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.040",
       "dcterms:title": "LM.CHE.NFXNREQ.040",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.040.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.041.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.041",
       "dcterms:title": "LM.CHE.NFXNREQ.041",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.041.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.042.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.042",
       "dcterms:title": "LM.CHE.NFXNREQ.042",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.042.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.043.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.043",
       "dcterms:title": "LM.CHE.NFXNREQ.043",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.043.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.044.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.044",
       "dcterms:title": "LM.CHE.NFXNREQ.044",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.044.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.045.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.045",
       "dcterms:title": "LM.CHE.NFXNREQ.045",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.045.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.046.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.046",
       "dcterms:title": "LM.CHE.NFXNREQ.046",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.046.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.047.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.047",
       "dcterms:title": "LM.CHE.NFXNREQ.047",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.047.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.048.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.048",
       "dcterms:title": "LM.CHE.NFXNREQ.048",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.048.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.049.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.049",
       "dcterms:title": "LM.CHE.NFXNREQ.049",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.049.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.050.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.050",
       "dcterms:title": "LM.CHE.NFXNREQ.050",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.050.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.051.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.051",
       "dcterms:title": "LM.CHE.NFXNREQ.051",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.051.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.052.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.052",
       "dcterms:title": "LM.CHE.NFXNREQ.052",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.052.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.053.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.053",
       "dcterms:title": "LM.CHE.NFXNREQ.053",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.053.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.054.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.054",
       "dcterms:title": "LM.CHE.NFXNREQ.054",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.054.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.055.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.055",
       "dcterms:title": "LM.CHE.NFXNREQ.055",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.055.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.056.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.056",
       "dcterms:title": "LM.CHE.NFXNREQ.056",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.056.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.057.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.057",
       "dcterms:title": "LM.CHE.NFXNREQ.057",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.057.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.058.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.058",
       "dcterms:title": "LM.CHE.NFXNREQ.058",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.058.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.059.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.059",
       "dcterms:title": "LM.CHE.NFXNREQ.059",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.059.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.060.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.060",
       "dcterms:title": "LM.CHE.NFXNREQ.060",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.060.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.061.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.061",
       "dcterms:title": "LM.CHE.NFXNREQ.061",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.061.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.062.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.062",
       "dcterms:title": "LM.CHE.NFXNREQ.062",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.062.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.063.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.063",
       "dcterms:title": "LM.CHE.NFXNREQ.063",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.063.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.064.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.064",
       "dcterms:title": "LM.CHE.NFXNREQ.064",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.064.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.065.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.065",
       "dcterms:title": "LM.CHE.NFXNREQ.065",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.065.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.066.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.066",
       "dcterms:title": "LM.CHE.NFXNREQ.066",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.066.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.067.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.067",
       "dcterms:title": "LM.CHE.NFXNREQ.067",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.067.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.068.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.068",
       "dcterms:title": "LM.CHE.NFXNREQ.068",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.068.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.069.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.069",
       "dcterms:title": "LM.CHE.NFXNREQ.069",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.069.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.070.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.070",
       "dcterms:title": "LM.CHE.NFXNREQ.070",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.070.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.071.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.071",
       "dcterms:title": "LM.CHE.NFXNREQ.071",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.071.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.072.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.072",
       "dcterms:title": "LM.CHE.NFXNREQ.072",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.072.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.073.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.073",
       "dcterms:title": "LM.CHE.NFXNREQ.073",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.073.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.074.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.074",
       "dcterms:title": "LM.CHE.NFXNREQ.074",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.074.json"
+      }
     },
     {
       "@id": "Binary-LM.CHE.NFXNREQ.075.jsonld",
       "@type": "fhir:Binary",
       "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.075",
       "dcterms:title": "LM.CHE.NFXNREQ.075",
-      "dcterms:type": "Other"
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-LM.CHE.NFXNREQ.075.json"
+      }
     },
     {
       "@id": "CodeSystem-FXREQBusinessProcesses.jsonld",
@@ -1468,6 +2071,9 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/CodeSystem/FXREQBusinessProcesses"
+      },
+      "schema:contentUrl": {
+        "@id": "../CodeSystem-FXREQBusinessProcesses.json"
       }
     },
     {
@@ -1479,6 +2085,9 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/CodeSystem/FXREQCategories"
+      },
+      "schema:contentUrl": {
+        "@id": "../CodeSystem-FXREQCategories.json"
       }
     },
     {
@@ -1490,6 +2099,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.001.E.json"
       }
     },
     {
@@ -1501,6 +2113,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.F"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.001.F.json"
       }
     },
     {
@@ -1512,6 +2127,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.001.G.json"
       }
     },
     {
@@ -1523,6 +2141,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.002.C.json"
       }
     },
     {
@@ -1534,6 +2155,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.002.D.json"
       }
     },
     {
@@ -1545,6 +2169,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.002.E.json"
       }
     },
     {
@@ -1556,6 +2183,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.F"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.002.F.json"
       }
     },
     {
@@ -1567,6 +2197,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.002.G.json"
       }
     },
     {
@@ -1578,6 +2211,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.003.C.json"
       }
     },
     {
@@ -1589,6 +2225,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.003.D.json"
       }
     },
     {
@@ -1600,6 +2239,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.003.E.json"
       }
     },
     {
@@ -1611,6 +2253,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.F"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.003.F.json"
       }
     },
     {
@@ -1622,6 +2267,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.003.G.json"
       }
     },
     {
@@ -1633,6 +2281,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.004.B.json"
       }
     },
     {
@@ -1644,6 +2295,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.004.C.json"
       }
     },
     {
@@ -1655,6 +2309,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.004.D.json"
       }
     },
     {
@@ -1666,6 +2323,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.004.E.json"
       }
     },
     {
@@ -1677,6 +2337,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.004.G.json"
       }
     },
     {
@@ -1688,6 +2351,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.A.json"
       }
     },
     {
@@ -1699,6 +2365,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.B.json"
       }
     },
     {
@@ -1710,6 +2379,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.C.json"
       }
     },
     {
@@ -1721,6 +2393,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.D.json"
       }
     },
     {
@@ -1732,6 +2407,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.E.json"
       }
     },
     {
@@ -1743,6 +2421,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.005.G.json"
       }
     },
     {
@@ -1754,6 +2435,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.006.A.json"
       }
     },
     {
@@ -1765,6 +2449,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.006.B.json"
       }
     },
     {
@@ -1776,6 +2463,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.006.C.json"
       }
     },
     {
@@ -1787,6 +2477,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.006.E.json"
       }
     },
     {
@@ -1798,6 +2491,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.006.G.json"
       }
     },
     {
@@ -1809,6 +2505,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.007.A.json"
       }
     },
     {
@@ -1820,6 +2519,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.007.B.json"
       }
     },
     {
@@ -1831,6 +2533,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.007.C.json"
       }
     },
     {
@@ -1842,6 +2547,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.007.D.json"
       }
     },
     {
@@ -1853,6 +2561,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.007.G.json"
       }
     },
     {
@@ -1864,6 +2575,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.008.A.json"
       }
     },
     {
@@ -1875,6 +2589,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.008.B.json"
       }
     },
     {
@@ -1886,6 +2603,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.008.C.json"
       }
     },
     {
@@ -1897,6 +2617,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.008.D.json"
       }
     },
     {
@@ -1908,6 +2631,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.008.G.json"
       }
     },
     {
@@ -1919,6 +2645,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.009.A.json"
       }
     },
     {
@@ -1930,6 +2659,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.009.B.json"
       }
     },
     {
@@ -1941,6 +2673,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.009.C.json"
       }
     },
     {
@@ -1952,6 +2687,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.009.D.json"
       }
     },
     {
@@ -1963,6 +2701,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.009.G.json"
       }
     },
     {
@@ -1974,6 +2715,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.010.A.json"
       }
     },
     {
@@ -1985,6 +2729,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.010.C.json"
       }
     },
     {
@@ -1996,6 +2743,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.010.D.json"
       }
     },
     {
@@ -2007,6 +2757,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.010.E.json"
       }
     },
     {
@@ -2018,6 +2771,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.010.G.json"
       }
     },
     {
@@ -2029,6 +2785,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.A.json"
       }
     },
     {
@@ -2040,6 +2799,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.B.json"
       }
     },
     {
@@ -2051,6 +2813,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.C.json"
       }
     },
     {
@@ -2062,6 +2827,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.D.json"
       }
     },
     {
@@ -2073,6 +2841,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.E.json"
       }
     },
     {
@@ -2084,6 +2855,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.011.G.json"
       }
     },
     {
@@ -2095,6 +2869,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.A.json"
       }
     },
     {
@@ -2106,6 +2883,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.B.json"
       }
     },
     {
@@ -2117,6 +2897,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.C.json"
       }
     },
     {
@@ -2128,6 +2911,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.D.json"
       }
     },
     {
@@ -2139,6 +2925,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.E.json"
       }
     },
     {
@@ -2150,6 +2939,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.G"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.012.G.json"
       }
     },
     {
@@ -2161,6 +2953,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.013.A.json"
       }
     },
     {
@@ -2172,6 +2967,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.013.B.json"
       }
     },
     {
@@ -2183,6 +2981,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.013.C.json"
       }
     },
     {
@@ -2194,6 +2995,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.013.D.json"
       }
     },
     {
@@ -2205,6 +3009,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.014.A.json"
       }
     },
     {
@@ -2216,6 +3023,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.014.B.json"
       }
     },
     {
@@ -2227,6 +3037,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.014.C.json"
       }
     },
     {
@@ -2238,6 +3051,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.014.E.json"
       }
     },
     {
@@ -2249,6 +3065,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.015.A.json"
       }
     },
     {
@@ -2260,6 +3079,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.015.B.json"
       }
     },
     {
@@ -2271,6 +3093,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.015.C.json"
       }
     },
     {
@@ -2282,6 +3107,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.D"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.015.D.json"
       }
     },
     {
@@ -2293,6 +3121,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.015.E.json"
       }
     },
     {
@@ -2304,6 +3135,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.016.A.json"
       }
     },
     {
@@ -2315,6 +3149,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.016.B.json"
       }
     },
     {
@@ -2326,6 +3163,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.016.C.json"
       }
     },
     {
@@ -2337,6 +3177,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.016.E.json"
       }
     },
     {
@@ -2348,6 +3191,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.017.A.json"
       }
     },
     {
@@ -2359,6 +3205,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.017.B.json"
       }
     },
     {
@@ -2370,6 +3219,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.017.C.json"
       }
     },
     {
@@ -2381,6 +3233,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.017.E.json"
       }
     },
     {
@@ -2392,6 +3247,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.018.A.json"
       }
     },
     {
@@ -2403,6 +3261,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.018.B.json"
       }
     },
     {
@@ -2414,6 +3275,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.018.C.json"
       }
     },
     {
@@ -2425,6 +3289,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.018.E.json"
       }
     },
     {
@@ -2436,6 +3303,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.019.A.json"
       }
     },
     {
@@ -2447,6 +3317,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.019.B.json"
       }
     },
     {
@@ -2458,6 +3331,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.019.C.json"
       }
     },
     {
@@ -2469,6 +3345,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.020.A.json"
       }
     },
     {
@@ -2480,6 +3359,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.020.B.json"
       }
     },
     {
@@ -2491,6 +3373,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.020.C.json"
       }
     },
     {
@@ -2502,6 +3387,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.021.A.json"
       }
     },
     {
@@ -2513,6 +3401,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.021.B.json"
       }
     },
     {
@@ -2524,6 +3415,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.C"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.021.C.json"
       }
     },
     {
@@ -2535,6 +3429,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.021.E.json"
       }
     },
     {
@@ -2546,6 +3443,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.022.A.json"
       }
     },
     {
@@ -2557,6 +3457,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.022.B.json"
       }
     },
     {
@@ -2568,6 +3471,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.022.E.json"
       }
     },
     {
@@ -2579,6 +3485,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.023.A.json"
       }
     },
     {
@@ -2590,6 +3499,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.023.B.json"
       }
     },
     {
@@ -2601,6 +3513,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.E"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.023.E.json"
       }
     },
     {
@@ -2612,6 +3527,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.024.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.024.A.json"
       }
     },
     {
@@ -2623,6 +3541,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.024.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.024.B.json"
       }
     },
     {
@@ -2634,6 +3555,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.025.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.025.A.json"
       }
     },
     {
@@ -2645,6 +3569,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.025.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.025.B.json"
       }
     },
     {
@@ -2656,6 +3583,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.026.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.026.A.json"
       }
     },
     {
@@ -2667,6 +3597,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.026.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.026.B.json"
       }
     },
     {
@@ -2678,6 +3611,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.027.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.027.A.json"
       }
     },
     {
@@ -2689,6 +3625,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.027.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.027.B.json"
       }
     },
     {
@@ -2700,6 +3639,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.028.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.028.A.json"
       }
     },
     {
@@ -2711,6 +3653,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.028.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.028.B.json"
       }
     },
     {
@@ -2722,6 +3667,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.029.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.029.A.json"
       }
     },
     {
@@ -2733,6 +3681,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.029.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.029.B.json"
       }
     },
     {
@@ -2744,6 +3695,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.030.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.030.A.json"
       }
     },
     {
@@ -2755,6 +3709,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.030.B"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.030.B.json"
       }
     },
     {
@@ -2766,6 +3723,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.031.A"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.FXREQ.031.A.json"
       }
     },
     {
@@ -2777,6 +3737,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.001"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.001.json"
       }
     },
     {
@@ -2788,6 +3751,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.002"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.002.json"
       }
     },
     {
@@ -2799,6 +3765,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.003"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.003.json"
       }
     },
     {
@@ -2810,6 +3779,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.004"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.004.json"
       }
     },
     {
@@ -2821,6 +3793,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.005"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.005.json"
       }
     },
     {
@@ -2832,6 +3807,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.006"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.006.json"
       }
     },
     {
@@ -2843,6 +3821,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.007"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.007.json"
       }
     },
     {
@@ -2854,6 +3835,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.008"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.008.json"
       }
     },
     {
@@ -2865,6 +3849,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.009"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.009.json"
       }
     },
     {
@@ -2876,6 +3863,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.010"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.010.json"
       }
     },
     {
@@ -2887,6 +3877,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.011"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.011.json"
       }
     },
     {
@@ -2898,6 +3891,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.012"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.012.json"
       }
     },
     {
@@ -2909,6 +3905,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.013"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.013.json"
       }
     },
     {
@@ -2920,6 +3919,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.014"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.014.json"
       }
     },
     {
@@ -2931,6 +3933,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.015"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.015.json"
       }
     },
     {
@@ -2942,6 +3947,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.016"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.016.json"
       }
     },
     {
@@ -2953,6 +3961,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.017"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.017.json"
       }
     },
     {
@@ -2964,6 +3975,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.018"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.018.json"
       }
     },
     {
@@ -2975,6 +3989,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.019"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.019.json"
       }
     },
     {
@@ -2986,6 +4003,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.020"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.020.json"
       }
     },
     {
@@ -2997,6 +4017,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.021"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.021.json"
       }
     },
     {
@@ -3008,6 +4031,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.022"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.022.json"
       }
     },
     {
@@ -3019,6 +4045,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.023"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.023.json"
       }
     },
     {
@@ -3030,6 +4059,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.024"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.024.json"
       }
     },
     {
@@ -3041,6 +4073,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.025"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.025.json"
       }
     },
     {
@@ -3052,6 +4087,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.026"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.026.json"
       }
     },
     {
@@ -3063,6 +4101,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.027"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.027.json"
       }
     },
     {
@@ -3074,6 +4115,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.028"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.028.json"
       }
     },
     {
@@ -3085,6 +4129,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.029"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.029.json"
       }
     },
     {
@@ -3096,6 +4143,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.030"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.030.json"
       }
     },
     {
@@ -3107,6 +4157,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.031"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.031.json"
       }
     },
     {
@@ -3118,6 +4171,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.032"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.032.json"
       }
     },
     {
@@ -3129,6 +4185,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.033"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.033.json"
       }
     },
     {
@@ -3140,6 +4199,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.034"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.034.json"
       }
     },
     {
@@ -3151,6 +4213,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.035"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.035.json"
       }
     },
     {
@@ -3162,6 +4227,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.036"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.036.json"
       }
     },
     {
@@ -3173,6 +4241,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.037"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.037.json"
       }
     },
     {
@@ -3184,6 +4255,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.038"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.038.json"
       }
     },
     {
@@ -3195,6 +4269,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.039"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.039.json"
       }
     },
     {
@@ -3206,6 +4283,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.040"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.040.json"
       }
     },
     {
@@ -3217,6 +4297,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.041"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.041.json"
       }
     },
     {
@@ -3228,6 +4311,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.042"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.042.json"
       }
     },
     {
@@ -3239,6 +4325,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.043"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.043.json"
       }
     },
     {
@@ -3250,6 +4339,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.044"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.044.json"
       }
     },
     {
@@ -3261,6 +4353,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.045"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.045.json"
       }
     },
     {
@@ -3272,6 +4367,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.046"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.046.json"
       }
     },
     {
@@ -3283,6 +4381,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.047"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.047.json"
       }
     },
     {
@@ -3294,6 +4395,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.048"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.048.json"
       }
     },
     {
@@ -3305,6 +4409,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.049"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.049.json"
       }
     },
     {
@@ -3316,6 +4423,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.050"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.050.json"
       }
     },
     {
@@ -3327,6 +4437,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.051"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.051.json"
       }
     },
     {
@@ -3338,6 +4451,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.052"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.052.json"
       }
     },
     {
@@ -3349,6 +4465,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.053"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.053.json"
       }
     },
     {
@@ -3360,6 +4479,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.054"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.054.json"
       }
     },
     {
@@ -3371,6 +4493,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.055"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.055.json"
       }
     },
     {
@@ -3382,6 +4507,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.056"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.056.json"
       }
     },
     {
@@ -3393,6 +4521,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.057"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.057.json"
       }
     },
     {
@@ -3404,6 +4535,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.058"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.058.json"
       }
     },
     {
@@ -3415,6 +4549,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.059"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.059.json"
       }
     },
     {
@@ -3426,6 +4563,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.060"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.060.json"
       }
     },
     {
@@ -3437,6 +4577,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.061"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.061.json"
       }
     },
     {
@@ -3448,6 +4591,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.062"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.062.json"
       }
     },
     {
@@ -3459,6 +4605,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.063"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.063.json"
       }
     },
     {
@@ -3470,6 +4619,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.064"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.064.json"
       }
     },
     {
@@ -3481,6 +4633,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.065"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.065.json"
       }
     },
     {
@@ -3492,6 +4647,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.066"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.066.json"
       }
     },
     {
@@ -3503,6 +4661,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.067"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.067.json"
       }
     },
     {
@@ -3514,6 +4675,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.068"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.068.json"
       }
     },
     {
@@ -3525,6 +4689,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.069"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.069.json"
       }
     },
     {
@@ -3536,6 +4703,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.070"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.070.json"
       }
     },
     {
@@ -3547,6 +4717,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.071"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.071.json"
       }
     },
     {
@@ -3558,6 +4731,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.072"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.072.json"
       }
     },
     {
@@ -3569,6 +4745,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.073"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.073.json"
       }
     },
     {
@@ -3580,6 +4759,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.074"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.074.json"
       }
     },
     {
@@ -3591,6 +4773,9 @@
       "dcterms:type": "Requirements: Formal Requirements",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.075"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-CHE.NFXNREQ.075.json"
       }
     },
     {
@@ -3602,6 +4787,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ValueSet/FXREQBusinessProcesses"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-FXREQBusinessProcesses.json"
       }
     },
     {
@@ -3613,6 +4801,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ValueSet/FXREQCategories"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-FXREQCategories.json"
       }
     },
     {
@@ -3624,6 +4815,9 @@
       "dcterms:description": "CCC DAK",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-ccc/ImplementationGuide/smart.who.int.dak-ccc"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-smart.who.int.dak-ccc.json"
       }
     }
   ]

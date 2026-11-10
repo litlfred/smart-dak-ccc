@@ -22,10 +22,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/resources/Requirements/CHE.FXREQ.005.D.json"
+        "@id": "../Requirements-CHE.FXREQ.005.D.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/e40aa154188ba5861dcec2a7c61265bafd0da95b/resources/Requirements/CHE.FXREQ.005.D.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
