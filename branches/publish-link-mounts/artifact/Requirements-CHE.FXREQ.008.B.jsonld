@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "Requirements-CHE.FXREQ.008.B.jsonld",
+  "@type": "fhir:Requirements",
+  "dcterms:identifier": "Requirements/CHE.FXREQ.008.B",
+  "schema:name": "Ask the caregiver what the neonate/infant/child's problems are",
+  "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+  "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Determine whether to manage client at the facility or refer\n\nso that\n\n>I can ensure the client receives appropriate services as quickly as possible",
+  "schema:version": "1.0.0",
+  "dcterms:type": "Requirements: Formal Requirements",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.B"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/ebb49d07326b73200304b07d91519ce081486f07/resources/Requirements/CHE.FXREQ.008.B--7bbc2bd6.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "fdb566cb426183b560b973f826d48334ffa82be0"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.dak-ccc",
+    "schema:version": "1.0.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/dak-ccc"
+    }
+  }
+}

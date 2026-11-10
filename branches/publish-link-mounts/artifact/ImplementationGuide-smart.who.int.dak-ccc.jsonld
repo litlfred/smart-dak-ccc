@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "ImplementationGuide-smart.who.int.dak-ccc.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-ccc",
+  "schema:name": "DakCcc",
+  "dcterms:title": "SMART DAK CCC",
+  "dcterms:description": "CCC DAK",
+  "schema:version": "1.0.0",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-ccc/ImplementationGuide/smart.who.int.dak-ccc"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-ccc/ebb49d07326b73200304b07d91519ce081486f07/resources/ImplementationGuide/smart.who.int.dak-ccc--ea107aa3.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "fdb566cb426183b560b973f826d48334ffa82be0"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.dak-ccc",
+    "schema:version": "1.0.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/dak-ccc"
+    }
+  }
+}
