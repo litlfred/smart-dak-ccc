@@ -1,0 +1,3629 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-index-jsonld/v1",
+  "@id": "index.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "smart.who.int.dak-ccc",
+  "schema:version": "1.0.0",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-ccc"
+  },
+  "dcterms:title": "SMART DAK CCC",
+  "schema:numberOfItems": 398,
+  "schema:hasPart": [
+    {
+      "@id": "ActorDefinition-allusers.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/allusers",
+      "dcterms:title": "All Users",
+      "dcterms:description": "Actor All Users from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/allusers"
+      }
+    },
+    {
+      "@id": "ActorDefinition-automatedsystemnotification.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/automatedsystemnotification",
+      "dcterms:title": "Automated system notification",
+      "dcterms:description": "Actor Automated system notification from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/automatedsystemnotification"
+      }
+    },
+    {
+      "@id": "ActorDefinition-communityhealthworker.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/communityhealthworker",
+      "dcterms:title": "Community health worker",
+      "dcterms:description": "Actor Community health worker from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/communityhealthworker"
+      }
+    },
+    {
+      "@id": "ActorDefinition-facilityhealthworker.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/facilityhealthworker",
+      "dcterms:title": "Facility health worker",
+      "dcterms:description": "Actor Facility health worker from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/facilityhealthworker"
+      }
+    },
+    {
+      "@id": "ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/facilitystafffacilitystaffinchargedistricthealthofficerstaff",
+      "dcterms:title": "Facility staff, facility staff in charge, district health officer/staff",
+      "dcterms:description": "Actor Facility staff, facility staff in charge, district health officer/staff from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/facilitystafffacilitystaffinchargedistricthealthofficerstaff"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworker.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworker",
+      "dcterms:title": "Health worker",
+      "dcterms:description": "Actor Health worker from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworker"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworkerandneonateinfantchildcaregiver.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworkerandneonateinfantchildcaregiver",
+      "dcterms:title": "Health worker and neonate/infant/child (caregiver)",
+      "dcterms:description": "Actor Health worker and neonate/infant/child (caregiver) from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworkerandneonateinfantchildcaregiver"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworkerorclerk.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworkerorclerk",
+      "dcterms:title": "Health worker or clerk",
+      "dcterms:description": "Actor Health worker or clerk from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/healthworkerorclerk"
+      }
+    },
+    {
+      "@id": "ActorDefinition-neonateinfantchildcaregiver.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/neonateinfantchildcaregiver",
+      "dcterms:title": "Neonate/infant/child (caregiver)",
+      "dcterms:description": "Actor Neonate/infant/child (caregiver) from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ActorDefinition/neonateinfantchildcaregiver"
+      }
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.001.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.E",
+      "dcterms:title": "LM.CHE.FXREQ.001.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.001.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.F",
+      "dcterms:title": "LM.CHE.FXREQ.001.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.001.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.001.G",
+      "dcterms:title": "LM.CHE.FXREQ.001.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.002.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.C",
+      "dcterms:title": "LM.CHE.FXREQ.002.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.002.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.D",
+      "dcterms:title": "LM.CHE.FXREQ.002.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.002.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.E",
+      "dcterms:title": "LM.CHE.FXREQ.002.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.002.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.F",
+      "dcterms:title": "LM.CHE.FXREQ.002.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.002.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.002.G",
+      "dcterms:title": "LM.CHE.FXREQ.002.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.003.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.C",
+      "dcterms:title": "LM.CHE.FXREQ.003.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.003.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.D",
+      "dcterms:title": "LM.CHE.FXREQ.003.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.003.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.E",
+      "dcterms:title": "LM.CHE.FXREQ.003.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.003.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.F",
+      "dcterms:title": "LM.CHE.FXREQ.003.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.003.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.003.G",
+      "dcterms:title": "LM.CHE.FXREQ.003.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.004.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.B",
+      "dcterms:title": "LM.CHE.FXREQ.004.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.004.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.C",
+      "dcterms:title": "LM.CHE.FXREQ.004.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.004.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.D",
+      "dcterms:title": "LM.CHE.FXREQ.004.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.004.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.E",
+      "dcterms:title": "LM.CHE.FXREQ.004.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.004.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.004.G",
+      "dcterms:title": "LM.CHE.FXREQ.004.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.A",
+      "dcterms:title": "LM.CHE.FXREQ.005.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.B",
+      "dcterms:title": "LM.CHE.FXREQ.005.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.C",
+      "dcterms:title": "LM.CHE.FXREQ.005.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.D",
+      "dcterms:title": "LM.CHE.FXREQ.005.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.E",
+      "dcterms:title": "LM.CHE.FXREQ.005.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.005.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.005.G",
+      "dcterms:title": "LM.CHE.FXREQ.005.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.006.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.A",
+      "dcterms:title": "LM.CHE.FXREQ.006.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.006.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.B",
+      "dcterms:title": "LM.CHE.FXREQ.006.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.006.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.C",
+      "dcterms:title": "LM.CHE.FXREQ.006.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.006.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.E",
+      "dcterms:title": "LM.CHE.FXREQ.006.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.006.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.006.G",
+      "dcterms:title": "LM.CHE.FXREQ.006.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.007.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.A",
+      "dcterms:title": "LM.CHE.FXREQ.007.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.007.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.B",
+      "dcterms:title": "LM.CHE.FXREQ.007.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.007.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.C",
+      "dcterms:title": "LM.CHE.FXREQ.007.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.007.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.D",
+      "dcterms:title": "LM.CHE.FXREQ.007.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.007.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.007.G",
+      "dcterms:title": "LM.CHE.FXREQ.007.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.008.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.A",
+      "dcterms:title": "LM.CHE.FXREQ.008.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.008.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.B",
+      "dcterms:title": "LM.CHE.FXREQ.008.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.008.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.C",
+      "dcterms:title": "LM.CHE.FXREQ.008.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.008.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.D",
+      "dcterms:title": "LM.CHE.FXREQ.008.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.008.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.008.G",
+      "dcterms:title": "LM.CHE.FXREQ.008.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.009.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.A",
+      "dcterms:title": "LM.CHE.FXREQ.009.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.009.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.B",
+      "dcterms:title": "LM.CHE.FXREQ.009.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.009.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.C",
+      "dcterms:title": "LM.CHE.FXREQ.009.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.009.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.D",
+      "dcterms:title": "LM.CHE.FXREQ.009.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.009.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.009.G",
+      "dcterms:title": "LM.CHE.FXREQ.009.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.010.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.A",
+      "dcterms:title": "LM.CHE.FXREQ.010.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.010.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.C",
+      "dcterms:title": "LM.CHE.FXREQ.010.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.010.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.D",
+      "dcterms:title": "LM.CHE.FXREQ.010.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.010.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.E",
+      "dcterms:title": "LM.CHE.FXREQ.010.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.010.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.010.G",
+      "dcterms:title": "LM.CHE.FXREQ.010.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.A",
+      "dcterms:title": "LM.CHE.FXREQ.011.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.B",
+      "dcterms:title": "LM.CHE.FXREQ.011.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.C",
+      "dcterms:title": "LM.CHE.FXREQ.011.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.D",
+      "dcterms:title": "LM.CHE.FXREQ.011.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.E",
+      "dcterms:title": "LM.CHE.FXREQ.011.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.011.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.011.G",
+      "dcterms:title": "LM.CHE.FXREQ.011.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.A",
+      "dcterms:title": "LM.CHE.FXREQ.012.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.B",
+      "dcterms:title": "LM.CHE.FXREQ.012.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.C",
+      "dcterms:title": "LM.CHE.FXREQ.012.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.D",
+      "dcterms:title": "LM.CHE.FXREQ.012.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.E",
+      "dcterms:title": "LM.CHE.FXREQ.012.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.012.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.012.G",
+      "dcterms:title": "LM.CHE.FXREQ.012.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.013.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.A",
+      "dcterms:title": "LM.CHE.FXREQ.013.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.013.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.B",
+      "dcterms:title": "LM.CHE.FXREQ.013.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.013.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.C",
+      "dcterms:title": "LM.CHE.FXREQ.013.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.013.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.013.D",
+      "dcterms:title": "LM.CHE.FXREQ.013.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.014.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.A",
+      "dcterms:title": "LM.CHE.FXREQ.014.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.014.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.B",
+      "dcterms:title": "LM.CHE.FXREQ.014.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.014.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.C",
+      "dcterms:title": "LM.CHE.FXREQ.014.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.014.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.014.E",
+      "dcterms:title": "LM.CHE.FXREQ.014.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.015.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.A",
+      "dcterms:title": "LM.CHE.FXREQ.015.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.015.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.B",
+      "dcterms:title": "LM.CHE.FXREQ.015.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.015.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.C",
+      "dcterms:title": "LM.CHE.FXREQ.015.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.015.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.D",
+      "dcterms:title": "LM.CHE.FXREQ.015.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.015.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.015.E",
+      "dcterms:title": "LM.CHE.FXREQ.015.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.016.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.A",
+      "dcterms:title": "LM.CHE.FXREQ.016.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.016.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.B",
+      "dcterms:title": "LM.CHE.FXREQ.016.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.016.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.C",
+      "dcterms:title": "LM.CHE.FXREQ.016.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.016.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.016.E",
+      "dcterms:title": "LM.CHE.FXREQ.016.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.017.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.A",
+      "dcterms:title": "LM.CHE.FXREQ.017.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.017.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.B",
+      "dcterms:title": "LM.CHE.FXREQ.017.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.017.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.C",
+      "dcterms:title": "LM.CHE.FXREQ.017.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.017.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.017.E",
+      "dcterms:title": "LM.CHE.FXREQ.017.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.018.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.A",
+      "dcterms:title": "LM.CHE.FXREQ.018.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.018.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.B",
+      "dcterms:title": "LM.CHE.FXREQ.018.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.018.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.C",
+      "dcterms:title": "LM.CHE.FXREQ.018.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.018.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.018.E",
+      "dcterms:title": "LM.CHE.FXREQ.018.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.019.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.A",
+      "dcterms:title": "LM.CHE.FXREQ.019.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.019.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.B",
+      "dcterms:title": "LM.CHE.FXREQ.019.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.019.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.019.C",
+      "dcterms:title": "LM.CHE.FXREQ.019.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.020.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.A",
+      "dcterms:title": "LM.CHE.FXREQ.020.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.020.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.B",
+      "dcterms:title": "LM.CHE.FXREQ.020.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.020.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.020.C",
+      "dcterms:title": "LM.CHE.FXREQ.020.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.021.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.A",
+      "dcterms:title": "LM.CHE.FXREQ.021.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.021.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.B",
+      "dcterms:title": "LM.CHE.FXREQ.021.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.021.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.C",
+      "dcterms:title": "LM.CHE.FXREQ.021.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.021.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.021.E",
+      "dcterms:title": "LM.CHE.FXREQ.021.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.022.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.A",
+      "dcterms:title": "LM.CHE.FXREQ.022.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.022.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.B",
+      "dcterms:title": "LM.CHE.FXREQ.022.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.022.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.022.E",
+      "dcterms:title": "LM.CHE.FXREQ.022.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.023.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.A",
+      "dcterms:title": "LM.CHE.FXREQ.023.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.023.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.B",
+      "dcterms:title": "LM.CHE.FXREQ.023.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.023.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.023.E",
+      "dcterms:title": "LM.CHE.FXREQ.023.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.024.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.024.A",
+      "dcterms:title": "LM.CHE.FXREQ.024.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.024.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.024.B",
+      "dcterms:title": "LM.CHE.FXREQ.024.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.025.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.025.A",
+      "dcterms:title": "LM.CHE.FXREQ.025.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.025.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.025.B",
+      "dcterms:title": "LM.CHE.FXREQ.025.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.026.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.026.A",
+      "dcterms:title": "LM.CHE.FXREQ.026.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.026.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.026.B",
+      "dcterms:title": "LM.CHE.FXREQ.026.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.027.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.027.A",
+      "dcterms:title": "LM.CHE.FXREQ.027.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.027.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.027.B",
+      "dcterms:title": "LM.CHE.FXREQ.027.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.028.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.028.A",
+      "dcterms:title": "LM.CHE.FXREQ.028.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.028.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.028.B",
+      "dcterms:title": "LM.CHE.FXREQ.028.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.029.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.029.A",
+      "dcterms:title": "LM.CHE.FXREQ.029.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.029.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.029.B",
+      "dcterms:title": "LM.CHE.FXREQ.029.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.030.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.030.A",
+      "dcterms:title": "LM.CHE.FXREQ.030.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.030.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.030.B",
+      "dcterms:title": "LM.CHE.FXREQ.030.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.FXREQ.031.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.FXREQ.031.A",
+      "dcterms:title": "LM.CHE.FXREQ.031.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.001.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.001",
+      "dcterms:title": "LM.CHE.NFXNREQ.001",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.002.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.002",
+      "dcterms:title": "LM.CHE.NFXNREQ.002",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.003.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.003",
+      "dcterms:title": "LM.CHE.NFXNREQ.003",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.004.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.004",
+      "dcterms:title": "LM.CHE.NFXNREQ.004",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.005.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.005",
+      "dcterms:title": "LM.CHE.NFXNREQ.005",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.006.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.006",
+      "dcterms:title": "LM.CHE.NFXNREQ.006",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.007.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.007",
+      "dcterms:title": "LM.CHE.NFXNREQ.007",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.008.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.008",
+      "dcterms:title": "LM.CHE.NFXNREQ.008",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.009.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.009",
+      "dcterms:title": "LM.CHE.NFXNREQ.009",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.010.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.010",
+      "dcterms:title": "LM.CHE.NFXNREQ.010",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.011.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.011",
+      "dcterms:title": "LM.CHE.NFXNREQ.011",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.012.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.012",
+      "dcterms:title": "LM.CHE.NFXNREQ.012",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.013.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.013",
+      "dcterms:title": "LM.CHE.NFXNREQ.013",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.014.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.014",
+      "dcterms:title": "LM.CHE.NFXNREQ.014",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.015.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.015",
+      "dcterms:title": "LM.CHE.NFXNREQ.015",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.016.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.016",
+      "dcterms:title": "LM.CHE.NFXNREQ.016",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.017.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.017",
+      "dcterms:title": "LM.CHE.NFXNREQ.017",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.018.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.018",
+      "dcterms:title": "LM.CHE.NFXNREQ.018",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.019.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.019",
+      "dcterms:title": "LM.CHE.NFXNREQ.019",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.020.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.020",
+      "dcterms:title": "LM.CHE.NFXNREQ.020",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.021.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.021",
+      "dcterms:title": "LM.CHE.NFXNREQ.021",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.022.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.022",
+      "dcterms:title": "LM.CHE.NFXNREQ.022",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.023.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.023",
+      "dcterms:title": "LM.CHE.NFXNREQ.023",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.024.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.024",
+      "dcterms:title": "LM.CHE.NFXNREQ.024",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.025.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.025",
+      "dcterms:title": "LM.CHE.NFXNREQ.025",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.026.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.026",
+      "dcterms:title": "LM.CHE.NFXNREQ.026",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.027.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.027",
+      "dcterms:title": "LM.CHE.NFXNREQ.027",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.028.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.028",
+      "dcterms:title": "LM.CHE.NFXNREQ.028",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.029.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.029",
+      "dcterms:title": "LM.CHE.NFXNREQ.029",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.030.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.030",
+      "dcterms:title": "LM.CHE.NFXNREQ.030",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.031.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.031",
+      "dcterms:title": "LM.CHE.NFXNREQ.031",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.032.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.032",
+      "dcterms:title": "LM.CHE.NFXNREQ.032",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.033.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.033",
+      "dcterms:title": "LM.CHE.NFXNREQ.033",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.034.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.034",
+      "dcterms:title": "LM.CHE.NFXNREQ.034",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.035.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.035",
+      "dcterms:title": "LM.CHE.NFXNREQ.035",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.036.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.036",
+      "dcterms:title": "LM.CHE.NFXNREQ.036",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.037.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.037",
+      "dcterms:title": "LM.CHE.NFXNREQ.037",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.038.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.038",
+      "dcterms:title": "LM.CHE.NFXNREQ.038",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.039.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.039",
+      "dcterms:title": "LM.CHE.NFXNREQ.039",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.040.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.040",
+      "dcterms:title": "LM.CHE.NFXNREQ.040",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.041.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.041",
+      "dcterms:title": "LM.CHE.NFXNREQ.041",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.042.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.042",
+      "dcterms:title": "LM.CHE.NFXNREQ.042",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.043.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.043",
+      "dcterms:title": "LM.CHE.NFXNREQ.043",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.044.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.044",
+      "dcterms:title": "LM.CHE.NFXNREQ.044",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.045.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.045",
+      "dcterms:title": "LM.CHE.NFXNREQ.045",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.046.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.046",
+      "dcterms:title": "LM.CHE.NFXNREQ.046",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.047.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.047",
+      "dcterms:title": "LM.CHE.NFXNREQ.047",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.048.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.048",
+      "dcterms:title": "LM.CHE.NFXNREQ.048",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.049.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.049",
+      "dcterms:title": "LM.CHE.NFXNREQ.049",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.050.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.050",
+      "dcterms:title": "LM.CHE.NFXNREQ.050",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.051.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.051",
+      "dcterms:title": "LM.CHE.NFXNREQ.051",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.052.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.052",
+      "dcterms:title": "LM.CHE.NFXNREQ.052",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.053.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.053",
+      "dcterms:title": "LM.CHE.NFXNREQ.053",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.054.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.054",
+      "dcterms:title": "LM.CHE.NFXNREQ.054",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.055.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.055",
+      "dcterms:title": "LM.CHE.NFXNREQ.055",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.056.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.056",
+      "dcterms:title": "LM.CHE.NFXNREQ.056",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.057.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.057",
+      "dcterms:title": "LM.CHE.NFXNREQ.057",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.058.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.058",
+      "dcterms:title": "LM.CHE.NFXNREQ.058",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.059.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.059",
+      "dcterms:title": "LM.CHE.NFXNREQ.059",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.060.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.060",
+      "dcterms:title": "LM.CHE.NFXNREQ.060",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.061.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.061",
+      "dcterms:title": "LM.CHE.NFXNREQ.061",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.062.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.062",
+      "dcterms:title": "LM.CHE.NFXNREQ.062",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.063.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.063",
+      "dcterms:title": "LM.CHE.NFXNREQ.063",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.064.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.064",
+      "dcterms:title": "LM.CHE.NFXNREQ.064",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.065.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.065",
+      "dcterms:title": "LM.CHE.NFXNREQ.065",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.066.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.066",
+      "dcterms:title": "LM.CHE.NFXNREQ.066",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.067.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.067",
+      "dcterms:title": "LM.CHE.NFXNREQ.067",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.068.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.068",
+      "dcterms:title": "LM.CHE.NFXNREQ.068",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.069.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.069",
+      "dcterms:title": "LM.CHE.NFXNREQ.069",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.070.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.070",
+      "dcterms:title": "LM.CHE.NFXNREQ.070",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.071.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.071",
+      "dcterms:title": "LM.CHE.NFXNREQ.071",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.072.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.072",
+      "dcterms:title": "LM.CHE.NFXNREQ.072",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.073.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.073",
+      "dcterms:title": "LM.CHE.NFXNREQ.073",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.074.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.074",
+      "dcterms:title": "LM.CHE.NFXNREQ.074",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.CHE.NFXNREQ.075.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.CHE.NFXNREQ.075",
+      "dcterms:title": "LM.CHE.NFXNREQ.075",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "CodeSystem-FXREQBusinessProcesses.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/FXREQBusinessProcesses",
+      "dcterms:title": "Functional Requirements Business Processes",
+      "dcterms:description": "CodeSystem for Functional Requirements Business Processes. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/CodeSystem/FXREQBusinessProcesses"
+      }
+    },
+    {
+      "@id": "CodeSystem-FXREQCategories.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/FXREQCategories",
+      "dcterms:title": "Functional Requirement Categories",
+      "dcterms:description": "CodeSystem for Functional Requirement Categories. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/CodeSystem/FXREQCategories"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.001.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.001.E",
+      "dcterms:title": "Identify and discuss follow-up location options",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Identify and discuss follow-up location options:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Provide a list of follow-up location options and contact details\n\nso that\n\n>I can choose the best options for the client and schedule a follow-up",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.001.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.001.F",
+      "dcterms:title": "Aggregate reporting and data use",
+      "dcterms:description": "*Business process* (F) Aggregate Reporting:\nActivity: Aggregate reporting and data use:\nAs a <a href=\"ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.html\">Facility staff, facility staff in charge, district health officer/staff</a>, I want to:\n>Produce a range of prepared and ad hoc reports and analyses \n\nso that\n\n>I am able to use data collected at the facility, including data for service delivery (beyond reporting purposes alone)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.F"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.001.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.001.G",
+      "dcterms:title": "General solution requirements – Data dictionary",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Data dictionary:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Solution must be able to leverage the data dictionary (to be produced as part of workstream 2/3 work) \n\nso that\n\n>The tool is consistent",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.001.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.002.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.002.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Allow the recording of key observations during a visit and a space to make general notes about the consultation and treatment provided\n\nso that\n\n>I can ensure that the client's health information is recorded and kept up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.002.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.002.D",
+      "dcterms:title": "Prepare for emergency referral",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Prepare for emergency referral:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a list of emergency referral locations and contact details if local emergency number (e.g. 911/999) is not used\n\nso that\n\n>I can arrange emergency services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.002.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.002.E",
+      "dcterms:title": "Arrange appointment for follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Arrange appointment for follow-up:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Display a schedule of available days\n\nso that\n\n>I can notify client when to return for subsequent contact",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.002.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.002.F",
+      "dcterms:title": "Aggregate reporting and data use",
+      "dcterms:description": "*Business process* (F) Aggregate Reporting:\nActivity: Aggregate reporting and data use:\nAs a <a href=\"ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.html\">Facility staff, facility staff in charge, district health officer/staff</a>, I want to:\n>Be able to view data on my own performance and service delivery  \n\nso that\n\n>I can understand trends and challenges and track my own performance over time ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.F"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.002.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.002.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Provide a modular approach to the solution to accommodate variations required to make the solution country-specific, for example: \n- ability to use/not to use personal identifiers for registration \n- include a focus on symptoms/diagnosis that may appear in a country-susceptible manner (malaria, HIV)\n- treatment modules that may be available in the country/setting (e.g. oral only vs injections)\n\nso that\n\n>The registration and consultation process includes what is more likely required without by-passing questions that are not required ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.002.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.003.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.003.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide decision support as appropriate for users based on the data entered\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.003.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.003.D",
+      "dcterms:title": "Identify and discuss referral location options",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Identify and discuss referral location options:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide a list of referral location options, specialisms and contact details\n\nso that\n\n>I can choose the best options for the client's contact facility and schedule a referral",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.003.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.003.E",
+      "dcterms:title": "Arrange appointment for follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Arrange appointment for follow-up:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Indicate (based on protocol) the preferred days for follow-up contact\n\nso that\n\n>The client receives services according to the recommended contact schedule",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.003.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.003.F",
+      "dcterms:title": "Aggregate reporting and data use",
+      "dcterms:description": "*Business process* (F) Aggregate Reporting:\nActivity: Aggregate reporting and data use:\nAs a <a href=\"ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.html\">Facility staff, facility staff in charge, district health officer/staff</a>, I want to:\n>Be able to run calculations on data to populate indicators or reports on my own performance and service delivery – calculations on data should be conducted with Fast Health Interoperability Resources (FHIR) and contextual query language\n\nso that\n\n>I can understand trends and challenges and track my own performance over time ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.F"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.003.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.003.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Manage clinical algorithm guidance changes through a change management process with quality assurance (using a reference system) and be able to push the information out to all solutions in use \n\nso that\n\n>I can ensure that all guidance being followed in the field is using the latest approved guidance from WHO",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.003.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.004.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.004.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to choose the option to refer in general to the SMART guidance without having to complete a full consultation (e.g. for training/reference only) \n\nso that\n\n>I can refresh my training and knowledge",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.004.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.004.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Suggest appropriate treatments/investigations based on findings including the ability to propose alternative treatments in the case that the primary treatment is not available\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.004.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.004.D",
+      "dcterms:title": "Identify and discuss referral location options",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Identify and discuss referral location options:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Be able to find out where a treatment method may be available nearby \n\nso that\n\n>I can refer my client to another facility to receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.004.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.004.E",
+      "dcterms:title": "Arrange appointment for follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Arrange appointment for follow-up:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Record identification and tracking information (such as mobile phone number) \n\nso that\n\n>I can follow up and remind the client on when to return for services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.004.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.004.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Be able to track treatments via reference numbers so that these can be updated as required and can be used to create \\\"treatment modules\\\" pertinent to a country or emergency setting\n\nso that\n\n>Countries can implement the correct treatment module for their regulations and emergency setting",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.004.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.A",
+      "dcterms:title": "Triage and emergency assessment",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Triage and emergency assessment:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Bypass the standard flow at any point if an urgent case is identified – Refer to Business Process G. Triage and assessment\n\nso that\n\n>The child/infant can receive immediate attention – Refer to Business Process G. Triage and assessment",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to choose the option of a consultation that leads me through the full process to assess and classify the sick child and further to treat the child, referral and follow-up\n\nso that\n\n>I can ensure that a complete consultation is provided",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Be able to show improvements or decline of a client's health based on previous/current consultations including before and after treatment\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.D",
+      "dcterms:title": "Identify and discuss referral location options",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Identify and discuss referral location options:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Find facilities that can provide the service or treatment method that mine cannot provide. \n\nso that\n\n>The client does not travel to a facility that cannot help them",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.E",
+      "dcterms:title": "Arrange appointment for follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Arrange appointment for follow-up:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Display the number of existing contacts per day (to allow for balancing)\n\nso that\n\n>I can manage and follow up on clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.005.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.005.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Be able to differentiate between simple and complex care provision requirements\n\nso that\n\n>I can provide the correct level of detail for the user type (e.g. doctor/specialist vs nurse health workers)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.005.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.006.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.006.A",
+      "dcterms:title": "Gather neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Gather neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to gather the client's caregiver basic information (if required)\n\nso that\n\n>I can track and follow the name of the client's caregiver for the purposes of engagement during the consultation",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.006.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.006.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to route the consultation via different health workers and save the information already entered to the consultation, even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add/edit information as it becomes available. \n\nso that\n\n>I do not have to start a new consultation for every health worker that the client is involved with",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.006.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.006.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide context-sensitive, real-time decision support in response to the entry of clinical data (alerts, advice, resources)\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.006.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.006.E",
+      "dcterms:title": "Arrange appointment for follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Arrange appointment for follow-up:\nAs a <a href=\"ActorDefinition-automatedsystemnotification.html\">Automated system notification</a>, I want to:\n>Notify/send a reminder to the client's caregiver for the referral appointment \n\nso that\n\n>So that the caregiver does not forget the appointment to receive the required health services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.006.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.006.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Be able to build the type of solution suitable for my country/setting using the correct modules according to preferences\n\nso that\n\n>I can build the solution as closely as possible to the country/setting according to regulations within the country and according to our specific solution requirements",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.006.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.007.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.007.A",
+      "dcterms:title": "Gather neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Gather neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to gather unique identifier number/information pertaining to the client that does not include personal information \n\nso that\n\n>I do not have to manage personal information management regulations/laws",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.007.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.007.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Identify key symptoms and signs that may require medical attention\n\nso that\n\n>I can provide the appropriate services as quickly as possible",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.007.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.007.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide decision support as appropriate for users \n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.007.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.007.D",
+      "dcterms:title": "Facility accommodates referral",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Facility accommodates referral:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Be able to share my client’s health records with the referral facility \n\nso that\n\n>They can provide the health care my client needs",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.007.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.007.G",
+      "dcterms:title": "General solution requirements – User feedback",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – User feedback:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>Be able to provide feedback to the facility administrator/IT administrator for issues users notice through daily use of the tool and recommended solution improvements.\n\nso that\n\n>Future solution development can be improved for the users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.007.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.008.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.008.A",
+      "dcterms:title": "Gather neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Gather neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to gather unique identifier number/information pertaining to the client that includes personal information \n\nso that\n\n>I can identify the client using personal information within personal information management regulations/laws",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.008.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.008.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Determine whether to manage client at the facility or refer\n\nso that\n\n>I can ensure the client receives appropriate services as quickly as possible",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.008.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.008.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide a source to access accurate health information \n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.008.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.008.D",
+      "dcterms:title": "Facility accommodates referral",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Facility accommodates referral:\nAs a <a href=\"ActorDefinition-automatedsystemnotification.html\">Automated system notification</a>, I want to:\n>Notify/send a reminder to the client's caregiver for the referral appointment \n\nso that\n\n>So that the caregiver does not forget the appointment to receive the required health services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.008.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.008.G",
+      "dcterms:title": "General solution requirements – Media",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Media:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>The solution to support multi-media, such as video, photos and audio\n\nso that\n\n>Examples of symptoms, diagnosis and treatment may be used throughout the consultation process",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.008.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.009.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.009.A",
+      "dcterms:title": "Search for neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Search for neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Search if the client is already in system (using at least two identifiers) (including information pertaining to the client's caregiver)\n\nso that\n\n>I can check if this is a new or existing client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.009.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.009.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>View a review of any past medical history previously entered\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.009.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.009.C",
+      "dcterms:title": "Counselling, in-facility management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Receive information messages in a way that ensures patient confidentiality\n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.009.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.009.D",
+      "dcterms:title": "Referral facility registration",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Referral facility registration:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a list or roster of all infant/child clients\n\nso that\n\n>I know which clients to follow up or are due for services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.009.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.009.G",
+      "dcterms:title": "General solution requirements – Sync",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Sync:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>The solution to store data in an FHIR-compliant server\n\nso that\n\n>Consistency of data representation and ability to exchange data with other services and solutions using FHIR standards and common value sets (International Statistical Classification of Diseases and Related Health Problems, Logical Observation Identifiers, Names and Codes)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.009.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.010.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.010.A",
+      "dcterms:title": "Search for neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Search for neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Display sufficient data to identify the client\n\nso that\n\n>I can confirm that it is the correct client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.010.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.010.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Create a new referral request to the health facility\n\nso that\n\n>I can refer my client so that they receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.010.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.010.D",
+      "dcterms:title": "Referral facility registration",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Referral facility registration:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide tools to search, sort and filter the infant/child database\n\nso that\n\n>I can manage and follow up on clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.010.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.010.E",
+      "dcterms:title": "Contact follow-up facility",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Contact follow-up facility:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Display a schedule of available days\n\nso that\n\n>I can notify the client when to return for subsequent contact",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.010.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.010.G",
+      "dcterms:title": "General solution requirements – Sync",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Sync:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>The solution to sync data in an FHIR-compliant server\n\nso that\n\n>Ensure that data are stored and synced with a server, so that patient information relevant to another user of Child Health in Emergencies Digital Platform can access information for client history and to maintain continuity in care delivery ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.010.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.A",
+      "dcterms:title": "Search for neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Search for neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Require a user to search if a client is already in the system before starting a new medical record entry\n\nso that\n\n>I can confirm that it is the correct client and update information as necessary",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.B",
+      "dcterms:title": "Determine if this is an initial visit or a follow-up visit",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Determine if this is an initial visit or a follow-up visit:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Indicate that the patient has arrived for the initial visit, scheduled contact or specific complaint (tasks will vary based on health worker roles)\n\nso that\n\n>I can know what services to provide",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Create a new follow-up request to the health facility\n\nso that\n\n>I can refer my client so that they receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.D",
+      "dcterms:title": "Discuss questions with infant/child's caregiver",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Discuss questions with infant/child's caregiver:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide/print/share information/clinical guidance to the client's caregiver as relevant \n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.E",
+      "dcterms:title": "Contact follow-up facility",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Contact follow-up facility:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Indicate (based on the protocol) the preferred days for follow-up contact\n\nso that\n\n>The client receives services according to recommended contact schedule",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.011.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.011.G",
+      "dcterms:title": "General solution requirements – Sync",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Sync:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>The solution to represent data in an FHIR format that can be synced with client applications that use the FHIR international patient summary (IPS) on their mobile devices\n\nso that\n\n>To ensure that clients are able to access their personal records and keep a copy on their phones using the Health Level 7 IPS format.",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.011.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.A",
+      "dcterms:title": "Search for neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Search for neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Read client identification system (e.g. quick response [QR] code, barcode, fingerprint) and pull up client information\n\nso that\n\n>I can confirm that it is the correct client and update information as necessary",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.B",
+      "dcterms:title": "Determine the age of the neonate/infant/child ",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Determine the age of the neonate/infant/child :\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Be able to view the age of the client on the client record or after consultation with the caregiver to add the client's age to the record\n\nso that\n\n>I can provide appropriate services for the client's problems based on their age",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide decision support as appropriate for users based on the data entered\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.D",
+      "dcterms:title": "Discuss questions with infant/child's caregiver",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Discuss questions with infant/child's caregiver:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide a way to share sources to access to accurate health information \n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.E",
+      "dcterms:title": "Contact follow-up facility",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Contact follow-up facility:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Record identification and tracking information (such as mobile phone number) \n\nso that\n\n>I can follow up and remind the client on when to return for services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.012.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.012.G",
+      "dcterms:title": "General solution requirements – Modular approach",
+      "dcterms:description": "*Business process* (G) Triage and Emergency Assessment:\nActivity: General solution requirements – Modular approach:\nAs a <a href=\"ActorDefinition-allusers.html\">All Users</a>, I want to:\n>To be able to add data and calculations as well as forms to the reference application, for localization (language support) and adaptation (addition of core health and data content), as well as calculations for decision-support and populating indicators\n\nso that\n\n>The tool and embedded forms (and associated interventions) can be adapted and localized by the user's governments/WHO/partners without requiring the assistance of engineers from the vendor each time",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.012.G"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.013.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.013.A",
+      "dcterms:title": "Search for neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Search for neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Provide sufficient data to rule out that this client is already in the system\n\nso that\n\n>I can avoid duplicates ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.013.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.013.B",
+      "dcterms:title": "Determine the age of the neonate/infant/child",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Determine the age of the neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Indicate if the age of the child is not known and be able to provide information as to how an age determination has been agreed\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.013.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.013.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Suggest appropriate treatments/investigations based on findings\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.013.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.013.D",
+      "dcterms:title": "Discuss questions with infant/child's caregiver",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Discuss questions with infant/child's caregiver:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide a way for the client's caregiver to receive information messages in a way that ensures patient confidentiality\n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.013.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.014.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.014.A",
+      "dcterms:title": "Review socio-demographic data with infant/child carer",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Review socio-demographic data with infant/child carer:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Add data that provide socio-demographic information about the client\n\nso that\n\n>I can use the data to for analysis, forecasting and planning",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.014.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.014.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a standardized form for the entry of the clients profile\n\nso that\n\n>I can ensure the client's health information is recorded and up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.014.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.014.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide context-sensitive, real-time decision support in response to the entry of clinical data (alerts, advice, resources)\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.014.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.014.E",
+      "dcterms:title": "Provide information follow-up",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Provide information follow-up:\nAs a <a href=\"ActorDefinition-facilityhealthworker.html\">Facility health worker</a>, I want to:\n>Be able to share my client’s health records with the follow-up facility \n\nso that\n\n>They can provide the care my client needs",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.014.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.015.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.015.A",
+      "dcterms:title": "Review socio-demographic data with infant/child carer",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Review socio-demographic data with infant/child carer:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Edit data that provide socio-demographic information about the client\n\nso that\n\n>I can use the data to for analysis, forecasting and planning",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.015.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.015.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a standardized form for the entry of clinical data\n\nso that\n\n>I can ensure the client's health information is recorded and up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.015.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.015.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide decision support as appropriate for users based on the data entered\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.015.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.015.D",
+      "dcterms:title": "Receive neonate/infant/child",
+      "dcterms:description": "*Business process* (D) Referral:\nActivity: Receive neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Be able to know the care my client received at the referral facility \n\nso that\n\n>I can provide appropriate care if my client comes back to my facility",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.D"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.015.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.015.E",
+      "dcterms:title": "Plan for routine, targeted community support",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Plan for routine, targeted community support:\nAs a <a href=\"ActorDefinition-communityhealthworker.html\">Community health worker</a>, I want to:\n>Provide a list or roster of all clients in the schedule\n\nso that\n\n>I can manage and follow up on clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.015.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.016.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.016.A",
+      "dcterms:title": "Update neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Update neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to edit the identification information (including information pertaining to the client's caregiver)\n\nso that\n\n>I can update existing client information ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.016.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.016.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide real-time range checks and data integrity checks on data\n\nso that\n\n>I can ensure the entry of accurate information and reduce errors",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.016.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.016.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Provide a source to access accurate health information \n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.016.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.016.E",
+      "dcterms:title": "Plan for routine, targeted community support",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Plan for routine, targeted community support:\nAs a <a href=\"ActorDefinition-communityhealthworker.html\">Community health worker</a>, I want to:\n>Provide a list of scheduled contacts and to allow for defaulters to be traced\n\nso that\n\n>I can track and follow up clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.016.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.017.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.017.A",
+      "dcterms:title": "Update neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Update neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Indicate mandatory fields that must be filled out for the registration to be valid\n\nso that\n\n>I can ensure all necessary information has been completed",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.017.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.017.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to follow a consultation that focuses initially on the symptoms highlighted by the caregiver but that continues a full assessment of all possible symptoms \n\nso that\n\n>I can provide a complete consultation and identify if there is more than one diagnosis and treatment recommendation",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.017.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.017.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworkerandneonateinfantchildcaregiver.html\">Health worker and neonate/infant/child (caregiver)</a>, I want to:\n>Receive information messages/alerts in a way that ensures patient confidentiality\n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.017.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.017.E",
+      "dcterms:title": "Attend follow-up at home, in the community or at the health facility ",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Attend follow-up at home, in the community or at the health facility :\nAs a <a href=\"ActorDefinition-neonateinfantchildcaregiver.html\">Neonate/infant/child (caregiver)</a>, I want to:\n>Refer to Business Process A: Registration\n\nso that\n\n>I can register attendance of the follow-up",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.017.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.018.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.018.A",
+      "dcterms:title": "Update neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Update neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Allow edits to fields on screen before information is committed\n\nso that\n\n>I can ensure information has been checked before submission",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.018.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.018.B",
+      "dcterms:title": "Ask the caregiver what the neonate/infant/child's problems are",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Ask the caregiver what the neonate/infant/child's problems are:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to route the consultation via different health workers and save the information already entered to the consultation, even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add/edit information as it becomes available\n\nso that\n\n>I do not have to start a new consultation for every health worker that the client is involved with",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.018.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.018.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Allow the recording of key observations during the follow-up visit\n\nso that\n\n>I can ensure the client's health information is recorded and kept up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.018.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.018.E",
+      "dcterms:title": "Visit sick neonate/infant/child",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Visit sick neonate/infant/child:\nAs a <a href=\"ActorDefinition-communityhealthworker.html\">Community health worker</a>, I want to:\n>Refer to Business Process A: Registration\n\nso that\n\n>I can identify the correct client details and health records",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.018.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.019.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.019.A",
+      "dcterms:title": "Update neonate/infant/child details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Update neonate/infant/child details:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Allow for a temporary identification in emergency situations when full identity is unknown\n\nso that\n\n>I can proceed with registration ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.019.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.019.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Highlight abnormal values\n\nso that\n\n>I can identify critical health issues or errors (if a data entry issue)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.019.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.019.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Create a new referral request to the health facility\n\nso that\n\n>I can refer my client so that they receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.019.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.020.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.020.A",
+      "dcterms:title": "Create neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Create neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to enter new identification information (including information pertaining to the client's caregiver)\n\nso that\n\n>I can enter new client information ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.020.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.020.B",
+      "dcterms:title": "Perform tests (laboratory)",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Perform tests (laboratory):\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a list of tests that the health worker can order for the client based on guidance for their age/symptoms/diagnosis\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.020.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.020.C",
+      "dcterms:title": "Counselling, in-facility or community management and treatment",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Counselling, in-facility or community management and treatment:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Create a new follow-up request to the health facility\n\nso that\n\n>I can refer my client so that they receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.020.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.021.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.021.A",
+      "dcterms:title": "Create neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Create neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Indicate mandatory fields that must be filled out for the registration to be valid\n\nso that\n\n>I can ensure all necessary information has been completed",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.021.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.021.B",
+      "dcterms:title": "Perform tests (laboratory)",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Perform tests (laboratory):\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide information so that test results that have been ordered can be recorded\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.021.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.021.C",
+      "dcterms:title": "Check if the neonate/infant/child has any new problems",
+      "dcterms:description": "*Business process* (C) Treat the child:\nActivity: Check if the neonate/infant/child has any new problems:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Be able to start a new Business Process B: Assess and classify the sick child if new symptoms have been identified with the client\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.C"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.021.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.021.E",
+      "dcterms:title": "Self/caregiver care in the home or community",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Self/caregiver care in the home or community:\nAs a <a href=\"ActorDefinition-neonateinfantchildcaregiver.html\">Neonate/infant/child (caregiver)</a>, I want to:\n>Provide/print/share information/clinical guidance with the client's caregiver as relevant \n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.021.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.022.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.022.A",
+      "dcterms:title": "Create neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Create neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Allow edits to fields on screen before information is committed\n\nso that\n\n>I can ensure information has been checked before submission",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.022.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.022.B",
+      "dcterms:title": "Diagnosis",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Diagnosis:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to agree/disagree with the diagnosis presented from the guidance and be able to select an alternative diagnosis stating the reasoning regarding the decision\n\nso that\n\n>If a diagnosis is deemed incorrect that I can correct it with suitable reasoning to ensure that the correct treatment recommendations are provided",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.022.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.022.E",
+      "dcterms:title": "Self/caregiver care in the home or community",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Self/caregiver care in the home or community:\nAs a <a href=\"ActorDefinition-neonateinfantchildcaregiver.html\">Neonate/infant/child (caregiver)</a>, I want to:\n>Provide a way to share sources for access accurate health information \n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.022.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.023.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.023.A",
+      "dcterms:title": "Create neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Create neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Allow for a temporary identification in emergency situations when full identity is unknown\n\nso that\n\n>I can proceed with registration ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.023.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.023.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a standardized form for the entry of the client's profile\n\nso that\n\n>I can ensure the client's health information is recorded and up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.023.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.023.E",
+      "dcterms:title": "Self/caregiver care in the home or community",
+      "dcterms:description": "*Business process* (E) Follow-up:\nActivity: Self/caregiver care in the home or community:\nAs a <a href=\"ActorDefinition-neonateinfantchildcaregiver.html\">Neonate/infant/child (caregiver)</a>, I want to:\n>Provide a way for the client's caregiver to receive information messages in a way that ensures patient confidentiality\n\nso that\n\n>I can manage my client's health in my daily life",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.023.E"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.024.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.024.A",
+      "dcterms:title": "Create neonate/infant/child record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Create neonate/infant/child record:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Be able to input biometric information only (e.g. age, sex, respiration, weight, birthweight, height)\n\nso that\n\n>I can proceed without using personal information but still maintain medical information via a unique identifier number (also useful in emergency scenarios)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.024.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.024.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.024.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a standardized form for the entry of clinical data\n\nso that\n\n>I can ensure the client's health information is recorded and up to date",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.024.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.025.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.025.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Record a time/date-stamped new contact (encounter)\n\nso that\n\n>I can confirm when the client came",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.025.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.025.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.025.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide real-time range checks and data integrity checks on data\n\nso that\n\n>I can ensure the entry of accurate information and reduce errors",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.025.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.026.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.026.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Identify in the client's record if this is a follow-up appointment or an initial visit\n\nso that\n\n>I can identify which process to follow and view the client's previous problems that required a follow-up",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.026.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.026.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.026.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to follow a consultation that focuses initially on the symptoms highlighted by the caregiver but that continues a full assessment of all possible symptoms \n\nso that\n\n>I can provide a complete consultation and identify if there is more than one diagnosis and treatment recommendation",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.026.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.027.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.027.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Provide the ability to \\\"check in\\\" for a scheduled contact\n\nso that\n\n>I can initiate services at the follow-up contact",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.027.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.027.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.027.B",
+      "dcterms:title": "Check symptoms and conduct physical exam",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Check symptoms and conduct physical exam:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Highlight abnormal values\n\nso that\n\n>I can identify critical health issues or errors (if a data entry issue)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.027.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.028.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.028.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Identify the date of the last attended contact\n\nso that\n\n>I can ensure client is receiving services according to the recommended contact schedule",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.028.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.028.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.028.B",
+      "dcterms:title": "Perform tests (laboratory)",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Perform tests (laboratory):\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide a list of tests that the health worker can order\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.028.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.029.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.029.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Provide a list of scheduled contacts to allow for defaulters to be traced\n\nso that\n\n>I can track and follow up clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.029.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.029.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.029.B",
+      "dcterms:title": "Perform tests (laboratory)",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Perform tests (laboratory):\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>Provide fields where test results that have been ordered can be recorded\n\nso that\n\n>I can provide appropriate services according to the latest clinical protocols",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.029.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.030.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.030.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Provide a list or roster of all infant/child clients due to arrive\n\nso that\n\n>I know which clients to follow up or are due for services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.030.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.030.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.030.B",
+      "dcterms:title": "Diagnosis",
+      "dcterms:description": "*Business process* (B) Assess and Classify the Sick Child:\nActivity: Diagnosis:\nAs a <a href=\"ActorDefinition-healthworker.html\">Health worker</a>, I want to:\n>To be able to agree/disagree with the diagnosis presented from the guidance and be able to select an alternative diagnosis stating the reasoning regarding the decision\n\nso that\n\n>If a diagnosis is deemed incorrect that I can correct it with suitable reasoning to ensure that the correct treatment recommendations are provided",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.030.B"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.FXREQ.031.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.FXREQ.031.A",
+      "dcterms:title": "Check in neonate/infant/child",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity: Check in neonate/infant/child:\nAs a <a href=\"ActorDefinition-healthworkerorclerk.html\">Health worker or clerk</a>, I want to:\n>Provide tools to search, sort and filter the infant/child client database\n\nso that\n\n>I can manage and follow up on clients requiring services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.FXREQ.031.A"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.001.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.001",
+      "dcterms:title": "Provide password-protected access for authorized users",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide password-protected access for authorized users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.001"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.002.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.002",
+      "dcterms:title": "Provide a means to ensure confidentiality and privacy of personal health information",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide a means to ensure confidentiality and privacy of personal health information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.002"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.003.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.003",
+      "dcterms:title": "Provide ability for allowed users to view confidential data",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide ability for allowed users to view confidential data",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.003"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.004.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.004",
+      "dcterms:title": "Anonymize data that are exported from the system when required (also ability to export non-anonymized data from the system)",
+      "dcterms:description": "*Category*: Security – confidentiality\nAnonymize data that are exported from the system when required (also ability to export non-anonymized data from the system)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.004"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.005.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.005",
+      "dcterms:title": "Prevent remembering username and password",
+      "dcterms:description": "*Category*: Security – confidentiality\nPrevent remembering username and password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.005"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.006.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.006",
+      "dcterms:title": "Automatically log out the user after specified time of inactivity",
+      "dcterms:description": "*Category*: Security – confidentiality\nAutomatically log out the user after specified time of inactivity",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.006"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.007.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.007",
+      "dcterms:title": "Provide encrypted communication between components",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide encrypted communication between components",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.007"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.008.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.008",
+      "dcterms:title": "Notify the user to change their password the first time they log in",
+      "dcterms:description": "*Category*: Security – authentication\nNotify the user to change their password the first time they log in",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.008"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.009.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.009",
+      "dcterms:title": "Adhere to complex password requirements",
+      "dcterms:description": "*Category*: Security – authentication\nAdhere to complex password requirements",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.009"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.010.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.010",
+      "dcterms:title": "Provide a mechanism to securely change a user's password",
+      "dcterms:description": "*Category*: Security – authentication\nProvide a mechanism to securely change a user's password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.010"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.011.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.011",
+      "dcterms:title": "Notify the user of a password change to their account",
+      "dcterms:description": "*Category*: Security – authentication\nNotify the user of a password change to their account",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.011"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.012.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.012",
+      "dcterms:title": "Reset a user's password in a secure manner",
+      "dcterms:description": "*Category*: Security – authentication\nReset a user's password in a secure manner",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.012"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.013.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.013",
+      "dcterms:title": "Lock a user out after a specified number of wrong password attempts",
+      "dcterms:description": "*Category*: Security – authentication\nLock a user out after a specified number of wrong password attempts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.013"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.014.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.014",
+      "dcterms:title": "Notify a user if their account is locked due to wrong password attempts",
+      "dcterms:description": "*Category*: Security – authentication\nNotify a user if their account is locked due to wrong password attempts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.014"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.015.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.015",
+      "dcterms:title": "Provide role-based access to the system",
+      "dcterms:description": "*Category*: Security – authentication\nProvide role-based access to the system",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.015"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.016.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.016",
+      "dcterms:title": "Log system log-ins and log-outs",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog system log-ins and log-outs",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.016"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.017.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.017",
+      "dcterms:title": "Record all authentication violations",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nRecord all authentication violations",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.017"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.018.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.018",
+      "dcterms:title": "Log all activities performed by the user, including date and time stamp",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog all activities performed by the user, including date and time stamp",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.018"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.019.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.019",
+      "dcterms:title": "Log access to views of individual client records",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog access to views of individual client records",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.019"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.020.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.020",
+      "dcterms:title": "Log access to data summaries, reports, analysis and visualization features",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog access to data summaries, reports, analysis and visualization features",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.020"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.021.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.021",
+      "dcterms:title": "Log exchange of data with other systems",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog exchange of data with other systems",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.021"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.022.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.022",
+      "dcterms:title": "Generate analysis of the usage of different system features and reports",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nGenerate analysis of the usage of different system features and reports",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.022"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.023.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.023",
+      "dcterms:title": "Log all data and system errors",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog all data and system errors",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.023"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.024.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.024",
+      "dcterms:title": "Allow user with permission to create a new user and temporary password",
+      "dcterms:description": "*Category*: Security – user management\nAllow user with permission to create a new user and temporary password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.024"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.025.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.025",
+      "dcterms:title": "Provide role-based access",
+      "dcterms:description": "*Category*: Security – user management\nProvide role-based access",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.025"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.026.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.026",
+      "dcterms:title": "Allow roles to be associated with specific geographical areas and/or health facilities (with the ability to choose which facility to log into as the user may work across several facilities)",
+      "dcterms:description": "*Category*: Security – user management\nAllow roles to be associated with specific geographical areas and/or health facilities (with the ability to choose which facility to log into as the user may work across several facilities)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.026"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.027.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.027",
+      "dcterms:title": "Allow cascading user management and assignment of roles",
+      "dcterms:description": "*Category*: Security – user management\nAllow cascading user management and assignment of roles",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.027"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.028.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.028",
+      "dcterms:title": "Allow user to change the user's own password",
+      "dcterms:description": "*Category*: Security – user management\nAllow user to change the user's own password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.028"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.029.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.029",
+      "dcterms:title": "Allow users to enable and disable another user",
+      "dcterms:description": "*Category*: Security – user management\nAllow users to enable and disable another user",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.029"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.030.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.030",
+      "dcterms:title": "Allow admin user to request password reset",
+      "dcterms:description": "*Category*: Security – user management\nAllow admin user to request password reset",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.030"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.031.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.031",
+      "dcterms:title": "Notify the user to regularly change the user's password",
+      "dcterms:description": "*Category*: Security – user management\nNotify the user to regularly change the user's password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.031"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.032.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.032",
+      "dcterms:title": "Allow each user to be assigned to one or more roles",
+      "dcterms:description": "*Category*: Security – user management\nAllow each user to be assigned to one or more roles",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.032"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.033.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.033",
+      "dcterms:title": "Support definitions of unlimited roles and assigned levels of access, viewing, entry, editing and auditing",
+      "dcterms:description": "*Category*: Security – user management\nSupport definitions of unlimited roles and assigned levels of access, viewing, entry, editing and auditing",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.033"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.034.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.034",
+      "dcterms:title": "Provide a unique version number for each revision",
+      "dcterms:description": "*Category*: System requirements – general\nProvide a unique version number for each revision",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.034"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.035.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.035",
+      "dcterms:title": "Enable earlier versions of a record to be recoverable",
+      "dcterms:description": "*Category*: System requirements – general\nEnable earlier versions of a record to be recoverable",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.035"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.036.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.036",
+      "dcterms:title": "Enable deployment in an environment subject to power loss",
+      "dcterms:description": "*Category*: System requirements – general\nEnable deployment in an environment subject to power loss",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.036"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.037.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.037",
+      "dcterms:title": "Work in an environment that is subject to loss of connectivity",
+      "dcterms:description": "*Category*: System requirements – general\nWork in an environment that is subject to loss of connectivity",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.037"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.038.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.038",
+      "dcterms:title": "Generate IDs that are unique across different installations or sites",
+      "dcterms:description": "*Category*: System requirements – general\nGenerate IDs that are unique across different installations or sites",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.038"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.039.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.039",
+      "dcterms:title": "Report version number when saving data to the database",
+      "dcterms:description": "*Category*: System requirements – general\nReport version number when saving data to the database",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.039"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.040.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.040",
+      "dcterms:title": "Be designed to be flexible enough to accommodate for the necessary changes in the future",
+      "dcterms:description": "*Category*: System requirements – general\nBe designed to be flexible enough to accommodate for the necessary changes in the future",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.040"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.041.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.041",
+      "dcterms:title": "Allow for offline and online functionality",
+      "dcterms:description": "*Category*: System requirements – general\nAllow for offline and online functionality",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.041"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.042.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.042",
+      "dcterms:title": "Show the number of records that are not yet synchronized",
+      "dcterms:description": "*Category*: System requirements – general\nShow the number of records that are not yet synchronized",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.042"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.043.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.043",
+      "dcterms:title": "Have ability to easily back up information",
+      "dcterms:description": "*Category*: System requirements – general\nHave ability to easily back up information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.043"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.044.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.044",
+      "dcterms:title": "Warn user if no valid back-up for more than a predefined number of days",
+      "dcterms:description": "*Category*: System requirements – general\nWarn user if no valid back-up for more than a predefined number of days",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.044"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.045.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.045",
+      "dcterms:title": "Must have the ability to store images or other unstructured data",
+      "dcterms:description": "*Category*: System requirements – general\nMust have the ability to store images or other unstructured data",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.045"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.046.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.046",
+      "dcterms:title": "Scalable to accommodate new demands",
+      "dcterms:description": "*Category*: System requirements – scalability\nScalable to accommodate new demands",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.046"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.047.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.047",
+      "dcterms:title": "Be able to accommodate at least 3000 health facilities",
+      "dcterms:description": "*Category*: System requirements – scalability\nBe able to accommodate at least 3000 health facilities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.047"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.048.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.048",
+      "dcterms:title": "Be able to accommodate at least 5000 concurrent users",
+      "dcterms:description": "*Category*: System requirements – scalability\nBe able to accommodate at least 5000 concurrent users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.048"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.049.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.049",
+      "dcterms:title": "Be able to accommodate more than [x number of] concurrent users",
+      "dcterms:description": "*Category*: System requirements – scalability\nBe able to accommodate more than [x number of] concurrent users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.049"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.050.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.050",
+      "dcterms:title": "Be user-friendly for people with low computer literacy",
+      "dcterms:description": "*Category*: System requirements – usability\nBe user-friendly for people with low computer literacy",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.050"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.051.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.051",
+      "dcterms:title": "Provide informative error messages and tooltips",
+      "dcterms:description": "*Category*: System requirements – usability\nProvide informative error messages and tooltips",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.051"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.052.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.052",
+      "dcterms:title": "Alert the user when navigating away from the form without saving",
+      "dcterms:description": "*Category*: System requirements – usability\nAlert the user when navigating away from the form without saving",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.052"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.053.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.053",
+      "dcterms:title": "Support real-time data entry validation and feedback to prevent data entry errors from being recorded",
+      "dcterms:description": "*Category*: System requirements – usability\nSupport real-time data entry validation and feedback to prevent data entry errors from being recorded",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.053"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.054.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.054",
+      "dcterms:title": "Simplify data recording through predefined dropdown or searchable lists, radio buttons and check boxes",
+      "dcterms:description": "*Category*: System requirements – usability\nSimplify data recording through predefined dropdown or searchable lists, radio buttons and check boxes",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.054"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.055.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.055",
+      "dcterms:title": "Support multiple languages – English, French, Spanish, Chinese, Russian, Arabic",
+      "dcterms:description": "*Category*: System requirements – usability\nSupport multiple languages – English, French, Spanish, Chinese, Russian, Arabic",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.055"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.056.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.056",
+      "dcterms:title": "Use industry-standard user interface practices and apply them in a consistent manner throughout the system",
+      "dcterms:description": "*Category*: System requirements – usability\nUse industry-standard user interface practices and apply them in a consistent manner throughout the system",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.056"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.057.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.057",
+      "dcterms:title": "Easy to learn and intuitive to enable user to navigate between pages",
+      "dcterms:description": "*Category*: System requirements – usability\nEasy to learn and intuitive to enable user to navigate between pages",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.057"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.058.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.058",
+      "dcterms:title": "Provide guidance to the users to better support clinical guidelines and best clinical practices",
+      "dcterms:description": "*Category*: System requirements – usability\nProvide guidance to the users to better support clinical guidelines and best clinical practices",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.058"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.059.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.059",
+      "dcterms:title": "Be reliable and robust (minimize the number of system crashes)",
+      "dcterms:description": "*Category*: System requirements – usability\nBe reliable and robust (minimize the number of system crashes)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.059"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.060.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.060",
+      "dcterms:title": "Adjust display to fit small screens (such as mobile phones)",
+      "dcterms:description": "*Category*: System requirements – usability\nAdjust display to fit small screens (such as mobile phones)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.060"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.061.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.061",
+      "dcterms:title": "Configure the system centrally",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure the system centrally",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.061"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.062.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.062",
+      "dcterms:title": "Configure business rules in line with guidelines and standard operating procedures (using the decision logic and contextual query language [CQL] + Fast Health Interoperability Resources [FHIR])",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure business rules in line with guidelines and standard operating procedures (using the decision logic and contextual query language [CQL] + Fast Health Interoperability Resources [FHIR])",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.062"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.063.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.063",
+      "dcterms:title": "Configure error messages",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure error messages",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.063"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.064.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.064",
+      "dcterms:title": "Configure workflows and business rules to accommodate differences between facilities",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure workflows and business rules to accommodate differences between facilities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.064"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.065.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.065",
+      "dcterms:title": "Communicate with external systems through mediators",
+      "dcterms:description": "*Category*: System requirements – interoperability\nCommunicate with external systems through mediators",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.065"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.066.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.066",
+      "dcterms:title": "Provide access to data through application programming interfaces to interface with other SMART guideline reference App solutions, incumbent solutions (e.g. registration systems) and reporting tools",
+      "dcterms:description": "*Category*: System requirements – interoperability\nProvide access to data through application programming interfaces to interface with other SMART guideline reference App solutions, incumbent solutions (e.g. registration systems) and reporting tools",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.066"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.067.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.067",
+      "dcterms:title": "The reference application must have an FHIR back end/FHIR native and leverage the workstream 3 content (CQL + FHIR resources)",
+      "dcterms:description": "*Category*: System requirements – interoperability\nThe reference application must have an FHIR back end/FHIR native and leverage the workstream 3 content (CQL + FHIR resources)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.067"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.068.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.068",
+      "dcterms:title": "Be interoperable with external systems through mediators",
+      "dcterms:description": "*Category*: System requirements – interoperability\nBe interoperable with external systems through mediators",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.068"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.069.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.069",
+      "dcterms:title": "Link with insurance systems to verify eligibility and submit claims",
+      "dcterms:description": "*Category*: System requirements – interoperability\nLink with insurance systems to verify eligibility and submit claims",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.069"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.070.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.070",
+      "dcterms:title": "Exchange data with other approved systems",
+      "dcterms:description": "*Category*: System requirements – interoperability\nExchange data with other approved systems",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.070"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.071.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.071",
+      "dcterms:title": "Accept data from multiple input methods including paper and geocoding (global positioning system)",
+      "dcterms:description": "*Category*: System requirements – interoperability\nAccept data from multiple input methods including paper and geocoding (global positioning system)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.071"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.072.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.072",
+      "dcterms:title": "Allow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow",
+      "dcterms:description": "*Category*: System requirements – hardware and connectivity\nAllow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.072"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.073.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.073",
+      "dcterms:title": "Enable use via a Web interface and mobile applications for use on various technology devices such as computers, laptops, tablets and mobiles",
+      "dcterms:description": "*Category*: System requirements – hardware and connectivity\nEnable use via a Web interface and mobile applications for use on various technology devices such as computers, laptops, tablets and mobiles",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.073"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.074.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.074",
+      "dcterms:title": "Ability to work offline and in low-bandwidth areas",
+      "dcterms:description": "*Category*: System requirements – hardware and connectivity\nAbility to work offline and in low-bandwidth areas",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.074"
+      }
+    },
+    {
+      "@id": "Requirements-CHE.NFXNREQ.075.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/CHE.NFXNREQ.075",
+      "dcterms:title": "Provision of design, build, technical system and architecture, and testing documentation for future support and further configuration of the solution for other health intervention initiatives",
+      "dcterms:description": "*Category*: Documentation\nProvision of design, build, technical system and architecture, and testing documentation for future support and further configuration of the solution for other health intervention initiatives",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/Requirements/CHE.NFXNREQ.075"
+      }
+    },
+    {
+      "@id": "ValueSet-FXREQBusinessProcesses.jsonld",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/FXREQBusinessProcesses",
+      "dcterms:title": "Functional Requirements Business Processes",
+      "dcterms:description": "Value Set for Functional Requirements Business Processes. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ValueSet/FXREQBusinessProcesses"
+      }
+    },
+    {
+      "@id": "ValueSet-FXREQCategories.jsonld",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/FXREQCategories",
+      "dcterms:title": "Functional Requirement Categories",
+      "dcterms:description": "Value Set for Functional Requirement Categories. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ValueSet/FXREQCategories"
+      }
+    },
+    {
+      "@id": "ImplementationGuide-smart.who.int.dak-ccc.jsonld",
+      "@type": "fhir:ImplementationGuide",
+      "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-ccc",
+      "dcterms:title": "SMART DAK CCC",
+      "dcterms:description": "CCC DAK",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-ccc/ImplementationGuide/smart.who.int.dak-ccc"
+      }
+    }
+  ]
+}
