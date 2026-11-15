@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.019.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.019",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.019",
   "schema:name": "Log access to views of individual client records",

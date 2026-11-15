@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.020.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.020",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.020",
   "schema:name": "Log access to data summaries, reports, analysis and visualization features",

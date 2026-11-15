@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.066.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.066",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.066",
   "schema:name": "Provide access to data through application programming interfaces to interface with other SMART guideline reference App solutions, incumbent solutions (e.g. registration systems) and reporting tools",

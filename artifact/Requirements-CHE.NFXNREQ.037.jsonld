@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.037.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.037",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.037",
   "schema:name": "Work in an environment that is subject to loss of connectivity",

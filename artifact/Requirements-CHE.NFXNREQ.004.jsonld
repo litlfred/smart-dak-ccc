@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.004.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.004",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.004",
   "schema:name": "Anonymize data that are exported from the system when required (also ability to export non-anonymized data from the system)",

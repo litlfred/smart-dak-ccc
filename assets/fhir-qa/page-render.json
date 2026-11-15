@@ -1,0 +1,1646 @@
+{
+ "$schema": "fhir-harness/page-render-qa/v1",
+ "generatedAt": "2026-11-15T17:06:18.561Z",
+ "scanned": 447,
+ "unfinished": [],
+ "findings": [
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.001.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Identify and discuss follow-up location options: As a <a href=\"ActorDefinition"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.001.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.001.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Data dictionary: As a <a"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.002.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.002.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Prepare for emergency referral: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.002.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.002.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.002.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.003.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.003.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.003.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.003.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.003.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.004.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.004.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.004.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.004.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.004.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Triage and emergency assessment: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.005.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.006.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.006.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.006.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.006.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-automatedsyst"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.006.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.007.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.007.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.007.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.007.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Facility accommodates referral: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.007.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – User feedback: As a <a h"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.008.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.008.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.008.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.008.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Facility accommodates referral: As a <a href=\"ActorDefinition-automatedsystemno"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.008.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Media: As a <a href=\"Act"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.009.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.009.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.009.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.009.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Referral facility registration: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.009.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.010.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.010.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.010.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Referral facility registration: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.010.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.010.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine if this is an initial visit or a follow-up "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.011.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine the age of the neonate/infant/child : As a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.012.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.013.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.013.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine the age of the neonate/infant/child: As a <"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.013.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.013.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.014.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Review socio-demographic data with infant/child carer: As a <a href=\"ActorD"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.014.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.014.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.014.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Provide information follow-up: As a <a href=\"ActorDefinition-facilityhealthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.015.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Review socio-demographic data with infant/child carer: As a <a href=\"ActorD"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.015.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.015.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.015.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Receive neonate/infant/child: As a <a href=\"ActorDefinition-healthworker.html\">"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.015.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Plan for routine, targeted community support: As a <a href=\"ActorDefinition-co"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.016.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.016.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.016.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.016.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Plan for routine, targeted community support: As a <a href=\"ActorDefinition-co"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.017.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.017.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.017.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.017.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Attend follow-up at home, in the community or at the health facility : As a <a"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.018.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.018.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.018.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.018.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Visit sick neonate/infant/child: As a <a href=\"ActorDefinition-communityhealth"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.019.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.019.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.019.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.020.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.020.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.020.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.021.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.021.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.021.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Check if the neonate/infant/child has any new problems: As a <a href=\"Ac"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.021.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.022.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.022.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Diagnosis: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.022.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.023.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.023.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.023.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.024.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.024.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.025.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.025.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.026.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.026.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.027.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.027.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.028.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.028.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.029.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.029.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.030.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.030.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Diagnosis: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifact/Requirements-CHE.FXREQ.031.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Identify and discuss follow-up location options: As a <a href=\"ActorDefinition"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Data dictionary: As a <a"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Prepare for emergency referral: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Aggregate Reporting: Activity: Aggregate reporting and data use: As a <a href=\"ActorDefinition-faci"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Triage and emergency assessment: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-facilityhealt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Arrange appointment for follow-up: As a <a href=\"ActorDefinition-automatedsyst"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Facility accommodates referral: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – User feedback: As a <a h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Gather neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Facility accommodates referral: As a <a href=\"ActorDefinition-automatedsystemno"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Media: As a <a href=\"Act"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility management and treatment: As a <a href=\"ActorDe"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Referral facility registration: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Referral facility registration: As a <a href=\"ActorDefinition-healthworker.html"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine if this is an initial visit or a follow-up "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Sync: As a <a href=\"Acto"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine the age of the neonate/infant/child : As a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Contact follow-up facility: As a <a href=\"ActorDefinition-facilityhealthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Triage and Emergency Assessment: Activity: General solution requirements – Modular approach: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for neonate/infant/child record: As a <a href=\"ActorDefinition-healt"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Determine the age of the neonate/infant/child: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Discuss questions with infant/child's caregiver: As a <a href=\"ActorDefinition-"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Review socio-demographic data with infant/child carer: As a <a href=\"ActorD"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Provide information follow-up: As a <a href=\"ActorDefinition-facilityhealthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Review socio-demographic data with infant/child carer: As a <a href=\"ActorD"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) Referral: Activity: Receive neonate/infant/child: As a <a href=\"ActorDefinition-healthworker.html\">"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Plan for routine, targeted community support: As a <a href=\"ActorDefinition-co"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Plan for routine, targeted community support: As a <a href=\"ActorDefinition-co"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Attend follow-up at home, in the community or at the health facility : As a <a"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Ask the caregiver what the neonate/infant/child's pro"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Visit sick neonate/infant/child: As a <a href=\"ActorDefinition-communityhealth"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Update neonate/infant/child details: As a <a href=\"ActorDefinition-healthwo"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Counselling, in-facility or community management and treatment: As a <a "
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Treat the child: Activity: Check if the neonate/infant/child has any new problems: As a <a href=\"Ac"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Diagnosis: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) Follow-up: Activity: Self/caregiver care in the home or community: As a <a href=\"ActorDefinition-ne"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create neonate/infant/child record: As a <a href=\"ActorDefinition-healthwor"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Check symptoms and conduct physical exam: As a <a hre"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Perform tests (laboratory): As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Assess and Classify the Sick Child: Activity: Diagnosis: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in neonate/infant/child: As a <a href=\"ActorDefinition-healthworkeror"
+  }
+ ]
+}

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.FXREQ.012.D.jsonld",
+  "@id": "Requirements-CHE.FXREQ.012.D",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.FXREQ.012.D",
   "schema:name": "Discuss questions with infant/child's caregiver",

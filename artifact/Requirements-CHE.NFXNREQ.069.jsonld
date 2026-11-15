@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.069.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.069",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.069",
   "schema:name": "Link with insurance systems to verify eligibility and submit claims",

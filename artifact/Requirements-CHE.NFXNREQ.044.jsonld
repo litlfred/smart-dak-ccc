@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.044.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.044",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.044",
   "schema:name": "Warn user if no valid back-up for more than a predefined number of days",

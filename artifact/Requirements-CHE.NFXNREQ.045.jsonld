@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.045.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.045",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.045",
   "schema:name": "Must have the ability to store images or other unstructured data",

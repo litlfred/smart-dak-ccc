@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.FXREQ.016.C.jsonld",
+  "@id": "Requirements-CHE.FXREQ.016.C",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.FXREQ.016.C",
   "schema:name": "Counselling, in-facility or community management and treatment",

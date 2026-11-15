@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.062.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.062",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.062",
   "schema:name": "Configure business rules in line with guidelines and standard operating procedures (using the decision logic and contextual query language [CQL] + Fast Health Interoperability Resources [FHIR])",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.075.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.075",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.075",
   "schema:name": "Provision of design, build, technical system and architecture, and testing documentation for future support and further configuration of the solution for other health intervention initiatives",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.FXREQ.017.E.jsonld",
+  "@id": "Requirements-CHE.FXREQ.017.E",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.FXREQ.017.E",
   "schema:name": "Attend follow-up at home, in the community or at the health facility ",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.026.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.026",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.026",
   "schema:name": "Allow roles to be associated with specific geographical areas and/or health facilities (with the ability to choose which facility to log into as the user may work across several facilities)",

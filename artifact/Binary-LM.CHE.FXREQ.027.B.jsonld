@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Binary-LM.CHE.FXREQ.027.B.jsonld",
+  "@id": "Binary-LM.CHE.FXREQ.027.B",
   "@type": "fhir:Binary",
   "dcterms:identifier": "Binary/LM.CHE.FXREQ.027.B",
   "dcterms:title": "LM.CHE.FXREQ.027.B",

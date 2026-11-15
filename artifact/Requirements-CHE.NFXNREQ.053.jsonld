@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.NFXNREQ.053.jsonld",
+  "@id": "Requirements-CHE.NFXNREQ.053",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.NFXNREQ.053",
   "schema:name": "Support real-time data entry validation and feedback to prevent data entry errors from being recorded",

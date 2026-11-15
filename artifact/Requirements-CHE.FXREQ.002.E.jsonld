@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.FXREQ.002.E.jsonld",
+  "@id": "Requirements-CHE.FXREQ.002.E",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.FXREQ.002.E",
   "schema:name": "Arrange appointment for follow-up",

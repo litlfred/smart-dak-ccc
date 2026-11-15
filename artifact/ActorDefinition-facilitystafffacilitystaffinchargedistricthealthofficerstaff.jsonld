@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff.jsonld",
+  "@id": "ActorDefinition-facilitystafffacilitystaffinchargedistricthealthofficerstaff",
   "@type": "fhir:ActorDefinition",
   "dcterms:identifier": "ActorDefinition/facilitystafffacilitystaffinchargedistricthealthofficerstaff",
   "schema:name": "Facility staff, facility staff in charge, district health officer/staff",

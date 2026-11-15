@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-CHE.FXREQ.011.B.jsonld",
+  "@id": "Requirements-CHE.FXREQ.011.B",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/CHE.FXREQ.011.B",
   "schema:name": "Determine if this is an initial visit or a follow-up visit",
