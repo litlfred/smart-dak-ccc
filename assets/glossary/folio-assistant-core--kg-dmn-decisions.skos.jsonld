@@ -21,7 +21,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Draft QA green?"
+          "@value": "Draft QA green?",
+          "@language": "en"
         }
       ],
       "skos:notation": "Decision_DraftQaGate",
@@ -36,7 +37,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "What is the user asking for?"
+          "@value": "What is the user asking for?",
+          "@language": "en"
         }
       ],
       "skos:notation": "Decision_FolioIntent",
@@ -51,7 +53,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Is the published site answering?"
+          "@value": "Is the published site answering?",
+          "@language": "en"
         }
       ],
       "skos:notation": "Decision_PagesLive",
@@ -66,7 +69,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Every changed block and rendered page reviewed?"
+          "@value": "Every changed block and rendered page reviewed?",
+          "@language": "en"
         }
       ],
       "skos:notation": "Decision_ReviewCoverageGate",

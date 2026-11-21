@@ -1081,6 +1081,88 @@
         }
       }
     },
+    "/tools/as-drawn-svg": {
+      "post": {
+        "operationId": "as-drawn-svg",
+        "summary": "Figure redrawn as drawn, from its PDF vector layer",
+        "description": "Draw a figure as SVG from `as-drawn-figure/v1` data: the drawing `scripts/pdf-as-drawn.py` transcribes from the source PDF's vector layer (every path, clip, text run and image in the L1 figure region, at its printed position, colour and size). The SVG keeps the original's layout and style; labels are SVG text held to their printed width, and labels that name a glossary concept link to it.",
+        "tags": [
+          "figure-rebuild"
+        ],
+        "externalDocs": {
+          "description": "The Tool's page",
+          "url": "folio-assistant-core/as-drawn-svg/"
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "$ref": "#/components/schemas/RepoPath",
+                    "description": "An as-drawn-figure/v1 file, or a directory of them."
+                  },
+                  "out-dir": {
+                    "$ref": "#/components/schemas/RepoPath",
+                    "description": "Where to write as-drawn-fig-<N>.svg."
+                  },
+                  "check": {
+                    "$ref": "#/components/schemas/Flag",
+                    "description": "Write nothing; fail when data is invalid or an SVG is stale."
+                  }
+                },
+                "required": [
+                  "data",
+                  "out-dir"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The Tool's declared outputs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "svg": {
+                      "$ref": "#/components/schemas/RepoPath",
+                      "description": "One SVG per data file, named after the figure labels it draws."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-tool-iri": "https://litlfred.github.io/folio-assistant/folio-assistant-core/tools/as-drawn-svg.jsonld",
+        "x-invoke": {
+          "shell": "bun run folio-assistant-core/scripts/as-drawn-svg.ts"
+        },
+        "x-install": {
+          "none": true
+        },
+        "x-requires": {
+          "runtime": [
+            "bun"
+          ],
+          "network": false
+        },
+        "x-satisfies": [
+          "figure-rebuild"
+        ],
+        "x-selection": {
+          "when": "A folio's L1 figure has no model route (ArchiMate, BPMN, DMN, FHIR, a figure-data family) or needs an as-drawn companion to its model view, and should be an SVG that looks like the printed figure rather than a PNG crop.",
+          "limits": "Transcribes; does not interpret. Soft-masked paints (drop shadows) are left out and counted in `omitted`. Fonts fall back to Source Sans or Arial, held to the printed width.",
+          "cost": "Reads JSON files; no network."
+        }
+      }
+    },
     "/tools/auto-docs-viewer": {
       "post": {
         "operationId": "auto-docs-viewer",
@@ -3545,7 +3627,7 @@
       "post": {
         "operationId": "ci-pr-checks",
         "summary": "Run a layer's PR checks",
-        "description": "Dispatch the layer's `harness-pr-checks.yml`, which calls the tools layer's reusable `layer-pr-checks.yml` (mount the pinned layers, run every gate of the layer's dependency harness, compare head against base) and, on main, `layer-main-qa.yml`. The workflow is the Tool: its helper scripts (run-gates, compare-gates, main-verdict, …) are its steps. Started with the standard GitHub CLI; the run is watched with `gh run watch`.",
+        "description": "Dispatch the layer's `harness-pr-checks.yml`, which calls the tools layer's reusable `layer-pr-checks.yml` (mount the pinned layers, run every gate of the layer's dependency harness, compare head against base) and, on main, `layer-main-qa.yml`. On a PR without `release` / `ready-to-merge` it runs the fast tier, which is ADVISORY (owner, card 2026-11-18): no job concludes `failure`, and the verdict (`fast-verdict`, green or RED) is in the summary and warnings; the full tier fails hard, and merge-guard `--full-tier` still refuses a head whose full tier is not green. The workflow is the Tool: its helper scripts (run-gates, compare-gates, main-verdict, …) are its steps. Started with the standard GitHub CLI; the run is watched with `gh run watch`.",
         "tags": [
           "cache-first-ci"
         ],
@@ -3989,7 +4071,7 @@
       "post": {
         "operationId": "ci-standing-repin",
         "summary": "Run a layer's standing re-pin",
-        "description": "Dispatch a layer's `standing-repin.yml`: move the pins that carry a standing consent to their newest `main`. Started with the standard GitHub CLI; the run is watched with `gh run watch`.",
+        "description": "Dispatch a layer's `standing-repin.yml`: move the pins that carry a standing consent to their newest `main`, open or update ONE repin PR and label it `needs-repin` for the merge manager, creating that label first in a repository that has none (owner, card 2026-11-18); it never merges. Started with the standard GitHub CLI; the run is watched with `gh run watch`.",
         "tags": [
           "remote-mount"
         ],
@@ -4910,7 +4992,7 @@
       "post": {
         "operationId": "diig-phases-svg",
         "summary": "DIIG phases, steps and resources chart",
-        "description": "Draw a DIIG \"phases, steps and resources\" chart as SVG from `diig-phases-figure/v1` data on a who-iris library entry (DIIG Fig. 1.1.1, or a handbook's republished version such as the product catalogue handbook's Fig. 4), or from a folio's `diig-phases-adaptation/v1` file that adds its own tiles and marks itself \"(this document)\". Every label comes from the data; tiles link to their library entry or glossary concept.",
+        "description": "Draw a DIIG \"phases, steps and resources\" chart as SVG from `diig-phases-figure/v1` data on a who-iris library entry (DIIG Fig. 1.1.1, or a handbook's republished version such as the product catalogue handbook's Fig. 4), or from a folio's `diig-phases-adaptation/v1` file that adds its own tiles and marks itself \"(this document)\". Every label comes from the data; a tile whose data names a link (URL, glossary concept or who-iris library entry) is an SVG link titled with the tile's name, and a tile with none is drawn without one.",
         "tags": [
           "figure-rebuild"
         ],
@@ -4932,6 +5014,10 @@
                   "out": {
                     "$ref": "#/components/schemas/RepoPath",
                     "description": "Where to write the SVG; stdout when absent."
+                  },
+                  "library-base": {
+                    "$ref": "#/components/schemas/Url",
+                    "description": "Where who-iris library entry pages are published, ending in `/`; defaults to the WorldHealthOrganization who-iris site."
                   }
                 },
                 "required": [
@@ -4952,7 +5038,7 @@
                   "properties": {
                     "svg": {
                       "$ref": "#/components/schemas/RepoPath",
-                      "description": "The chart, with text as SVG text, one `<g id=\"tile-<resource>\">` per tile."
+                      "description": "The chart, with text as SVG text, one `<g id=\"tile-<resource>\">` per tile, inside a titled `<a>` when the tile links."
                     }
                   }
                 }
@@ -11211,7 +11297,7 @@
         },
         "x-tool-iri": "http://smart.who.int/base/tools/l1-extraction-pages.jsonld",
         "x-invoke": {
-          "shell": "bun run smart-base/scripts/gen-l1-extraction-pages.ts"
+          "shell": "bun run cat smart-base:l1-extraction:pages"
         },
         "x-install": {
           "none": true
@@ -14530,6 +14616,78 @@
           "when": "A licence id must be checked against a fixed, named edition of the SPDX License List rather than against whatever spdx.org serves today.",
           "limits": "Ids, names and the deprecated flag only — not licence texts, URLs or OSI/FSF flags. The version comes from the pin record, never from this script; refreshing means moving the pin first.",
           "cost": "Two JSON files (~380 KB) fetched once by hand; the ~105 KB snapshot is committed, so nothing runs at check time."
+        }
+      }
+    },
+    "/tools/precheck": {
+      "post": {
+        "operationId": "precheck",
+        "summary": "Precheck a push",
+        "description": "Run, before a push leaves the machine, only the fast checks whose inputs the push changed: `lock:coherence:check` (agreement and freshness) and `mount:remote:check` for a change to `index.lock.json` or `index.config.json`, `check:workflow-pins` for a change under `.github/workflows/`, and the typecheck for a `.ts` change. Nothing runs when the push changed none of them, and the full tier never runs. It is git's `pre-push` hook (`scripts/git-hooks/pre-push`), installed by the session-start primer; the same command runs it by hand (as the hook it is `--git-hook <remote>`, with the pushed refs on stdin).",
+        "tags": [
+          "platform-gates",
+          "continual-progress"
+        ],
+        "externalDocs": {
+          "description": "The Tool's page",
+          "url": "cat-harness/precheck/"
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "dry-run": {
+                    "$ref": "#/components/schemas/Flag",
+                    "description": "Print the checks this push owes and why, running none."
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The Tool's declared outputs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "report": {
+                      "$ref": "#/components/schemas/Text",
+                      "description": "One line per check run (✓, ✗ or ?), then the red checks' output. Exit 0: every check passed, none was owed, or none could be judged here (no bun, `cat` runner or `node_modules`; a dirty tree; a check that exited 2 or ran past `CAT_PRECHECK_TIMEOUT`, 90 s), each said in one line. Exit 1: a check is red, and the push is refused."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-tool-iri": "https://litlfred.github.io/folio-assistant/cat-harness/tools/precheck.jsonld",
+        "x-invoke": {
+          "shell": "bun run cat precheck"
+        },
+        "x-install": {
+          "none": true
+        },
+        "x-requires": {
+          "runtime": [
+            "bun"
+          ],
+          "network": true
+        },
+        "x-satisfies": [
+          "platform-gates",
+          "continual-progress"
+        ],
+        "x-selection": {
+          "when": "Every push: the hook runs it. By hand before pushing a lock, workflow or TypeScript change, to see in seconds what CI would fail on, since every red CI run emails the owner (owner, card 2026-11-18).",
+          "limits": "Only the checks the push's own changes can break; it is a floor, not `gates`. It judges the working tree, so it judges nothing when the pushed commit is not HEAD or tracked files differ from it. `git push --no-verify` skips it; `CAT_PRECHECK=0` turns it off.",
+          "cost": "15–60 s when a check is owed; nothing otherwise."
         }
       }
     },
